@@ -3,10 +3,10 @@
 $name = 'Romanian';
 
 // Language Author
-$author = 'phpDolphin';
+$author = 'phpSocial';
 
 // Language URL
-$url = 'http://phpdolphin.com';
+$url = 'http://phpsocial.com';
 
 $LNG['lang_direction'] = 'ltr';
 
