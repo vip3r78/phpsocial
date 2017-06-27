@@ -6,7 +6,7 @@ $name = 'Turkish';
 $author = 'Şafak Mocuk';
 
 // Language URL
-$url = 'http://phpdolphin.com';
+$url = 'http://phpsocial.com';
 
 $LNG['lang_direction'] = 'ltr';
 
