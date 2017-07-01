@@ -3,7 +3,7 @@
 $name = 'Turkish';
 
 // Language Author
-$author = 'Şafak Mocuk';
+$author = 'Safak Mocuk';
 
 // Language URL
 $url = 'http://phpsocial.com';
@@ -34,7 +34,7 @@ $LNG['captcha'] = 'Captcha';
 $LNG['username_or_email'] = 'Kullanıcı Adı yada email';
 $LNG['welcome_title'] = 'Hoşgeldin';
 $LNG['welcome_desc'] = 'Sosyal ağımıza';
-$LNG['welcome_about'] = 'hatıralarını anılarını paylaş, başka insalar ile tanış, yeni arkadaşlıklar kur.';
+$LNG['welcome_about'] = 'Hatıralarını, anılarını paylaş, yeni insanlar ile tanış, yeni arkadaşlıklar kur.';
 $LNG['forgot_password'] = 'Şifrenizi mi unuttunuz?';
 $LNG['remember_me'] = 'Beni hatırla';
 $LNG['all_rights_reserved'] = 'Tüm hakları saklıdır';
@@ -42,8 +42,8 @@ $LNG['all_rights_reserved'] = 'Tüm hakları saklıdır';
 $LNG['welcome_one'] = 'Bağlan';
 $LNG['welcome_two'] = 'Paylaş';
 $LNG['welcome_three'] = 'Keşfet';
-$LNG['welcome_one_desc'] = 'Ailen ve arkadaşlarınla iletişim kur en güzel anlarını paylaş';
-$LNG['welcome_two_desc'] = 'Hayatındaki yenilikleri ve arkadaşların ile yaşadışın anları paylaş';
+$LNG['welcome_one_desc'] = 'Ailen ve arkadaşlarınla iletişim kur ve en güzel anlarını paylaş';
+$LNG['welcome_two_desc'] = 'Hayatındaki yenilikleri ve arkadaşların ile yaşadığın güzel anları paylaş';
 $LNG['welcome_three_desc'] = 'Yeni insanları keşfet, yeni bağlantılar ile yeni dostluklar kur';
 $LNG['latest_users'] = 'En son üyeler';
 
@@ -53,7 +53,7 @@ $LNG['nothing_saved'] = 'Kaydedilemedi';
 $LNG['password_changed'] = 'Şifre Değişti';
 $LNG['nothing_changed'] = 'Değiştirilemedi';
 $LNG['incorrect_date'] = 'Seçmiş olduğunuz tarih geçerli değildir, lütfen geçerli bir tarih seçiniz.';
-$LNG['password_not_changed'] = 'Şfre değiştirilmemiş.';
+$LNG['password_not_changed'] = 'Şifre değiştirilmemiş.';
 $LNG['image_saved'] = 'Resim kaydedildi';
 $LNG['error'] = 'Hata';
 $LNG['no_file'] = 'Yükleecek bir dosya seçmediniz, ya da seçtiğiniz dosya(lar) boş.';
@@ -73,7 +73,6 @@ $LNG['password_reseted'] = 'Şifrenizi başarılı bir şekilde sıfırladınız
 $LNG['email_sent'] = 'Email gönderildi';
 $LNG['email_reset'] = 'Şifre sıfırlama talimatlarını içeren bir email hesabınıza gönderildi. Mailin size ulaşması 24 saat bulabilir,eğer mail kutunuzda gelen birşey yok ise SPAM kutunuzu kontrol ediniz.';
 $LNG['user_has_been_deleted'] = 'Kullanııcı <strong>%s</strong> silindi.';
-$LNG['user_not_exist'] = 'Seçtiğiniz kullanıcı mevcut değil.';
 $LNG['theme_changed'] = 'Tema değişti';
 $LNG['notif_saved'] = 'Bildirimler değişti';
 $LNG['notif_success_saved'] = 'Bildirimler başarılı bir şekilde güncellendi.';
@@ -112,9 +111,9 @@ $LNG['curl_error'] = ' <strong>cURL</strong> eklentisinin sunucuda izin verilmi�
 // ADMIN PANEL
 $LNG['general_link'] = 'Genel';
 $LNG['security_link'] = 'Güvenlik';
-$LNG['manage_users'] = 'Üyeleri yönet';
+$LNG['manage_users'] = 'Üyeleri Yönet';
 $LNG['registration'] = 'Kayıt';
-$LNG['limits'] = 'Sınırlar';
+$LNG['limits'] = 'Kısıtlamalar';
 $LNG['emails'] = 'Emailler';
 
 $LNG['theme_install'] = 'Yeni bir tema yüklemek için temayı <strong>themes</strong> klasörü içine yükleyiniz';
@@ -126,13 +125,13 @@ $LNG['active'] = 'Aktif';
 $LNG['activate'] = 'Aktifleştir';
 $LNG['deactivate'] = 'Aktivasyonu kaldır';
 $LNG['by'] = 'ile';
-$LNG['settings'] = 'Ayarlar';
+$LNG['settings'] = 'Ayarlar'
 
 // FEED
 $LNG['welcome_feed_ttl'] = 'Haber akışınıza hoşgeldiniz';
 $LNG['welcome_feed'] = 'Arkadaşlarınızın tüm paylaştıkları bu sayfada görülecek, yeni arkadaşlar edinmeye başlayın.';
 $LNG['leave_comment'] = 'Yorum bırak...';
-$LNG['post'] = 'Gönderi';
+$LNG['post'] = 'Gönder';
 $LNG['view_more_messages'] = 'Daha fazla';
 $LNG['view_more_comments'] = 'Daha fazla yorum göster';
 $LNG['delete_q_comment'] = 'Bu yorumu silmek istediğinizden eminmisiniz?';
@@ -145,12 +144,12 @@ $LNG['visited'] = 'Ziyaret ettim:  <strong>%s</strong>';
 $LNG['played'] = 'Oynadım: <strong>%s</strong>';
 $LNG['watched'] = 'İzledim: <strong>%s</strong>';
 $LNG['listened'] = 'Dinledim: <strong>%s</strong>';
-$LNG['shared_title'] = 'shared <a href="%s" rel="loadpage"><strong>%s</strong></a>\'s <a href="%s" rel="loadpage"><strong>message</strong></a>.';
+$LNG['shared_title'] = ' <a href="%s" rel="loadpage"><strong>%s</strong></a> mesajı <a href="%s" rel="loadpage"><strong>paylaşıldı</strong></a>.';
 $LNG['group_title'] = 'grubunda <a href="%s" rel="loadpage"><strong>%s</strong></a>gönderildi.';
 $LNG['form_title'] = 'Durumunu güncelle';
-$LNG['comment_wrong'] = 'Birşeyler yanlış gitti, lütfen sayfayı yenileyerek tekrar deneyin.';
+$LNG['comment_wrong'] = 'Bir şeyler yanlış gitti, lütfen sayfayı yenileyerek tekrar deneyin.';
 $LNG['comment_too_long'] = 'Üzgünüz, her yorum için izin verilen karakter sayısı <strong>%s</strong>.';
-$LNG['comment_error'] = 'Sorry, we couldn\'t post the comment, please refresh the page and try again.';
+$LNG['comment_error'] = 'Üzgünüz,yorumunuzu gönderemedik, lütfen sayfayı yenileyerek tekrar deneyiniz.';
 $LNG['message_private'] = 'Üzgünüz , bu mesaj özeldir, sadece yazar bu mesajı görebilir.';
 $LNG['message_private_ttl'] = 'Özel Mesaj';
 $LNG['message_semi_private'] = 'Üzgünüz, bu mesaj özeldir, sadece yazar ve arkadaşlar bu mesajı görebilir.';
@@ -188,6 +187,7 @@ $LNG['rep_comment'] = 'Yorum';
 $LNG['groups'] = 'Gruplar';
 $LNG['events'] = 'Etkinlikler';
 $LNG['archive'] = 'Arşivler';
+$LNG['recent'] = 'Geçmiş';
 $LNG['all_events'] = 'Tüm etkinlikler';
 $LNG['sidebar_map'] = 'Yerler';
 $LNG['sidebar_food'] = 'Yemekler';
@@ -266,7 +266,7 @@ $LNG['user_menu_notifications'] = 'Bildirimler';
 $LNG['user_menu_privacy'] = 'Gizlilik';
 $LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Hesabı Sil';
 $LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Engellenmiş Kullanıcılar';
-$LNG['other'] = 'Other';
+$LNG['other'] = 'Diğer';
 
 $LNG['user_ttl_general'] = 'Genel Ayarlar';
 $LNG['user_ttl_security'] = 'Şifre Ayarları';
@@ -469,6 +469,9 @@ $LNG['admin_sub_timestamp'] = 'Mesajlar, Yorumlar ve Sohbette timestamp şekli';
 $LNG['admin_ttl_timezone'] = 'Timezone';
 $LNG['admin_sub_timezone'] = 'Timezone PHP tarafından destekleniyor';
 
+$LNG['admin_sub_pages'] = 'Sayfa fonksiyonelliğine izin ver';
+$LNG['admin_sub_groups'] = 'Grupların fonksiyonelliğine izin ver';
+
 $LNG['admin_ttl_msg_perpage'] = 'Mesaj';
 $LNG['admin_sub_msg_perpage'] = 'Her sayfadaki mesaj sayısı';
 
@@ -522,6 +525,10 @@ $LNG['admin_sub_message_image'] = 'İzin verilen resim boyutu (Mesajlar) (MB)';
 
 $LNG['admin_ttl_message_format'] = 'Resim Formatı (Mesajlar)';
 $LNG['admin_sub_message_format'] = 'Yüklenebilir resim formatları (Mesajlar), sadece kullanılabilir formatlar gif,png,jpg diğer formatlar geçerli değildir';
+
+$LNG['admin_sub_friends_limit'] = 'Her bir kullanıcı için izin verilen maksimum arkadaşlık sayısı';
+$LNG['admin_sub_pages_limit'] = 'Her bir kullanıcı için izin verilen maksimum oluşturulacak sayfa sayısı';
+$LNG['admin_sub_groups_limit'] = 'Her bir kullanıcı için izin verilen maksimum grup oluşturma ve katılma sayısı';
 
 $LNG['admin_ttl_censor'] = 'Sansür';
 $LNG['admin_sub_censor'] = 'Sansürlenen Kelimeler (örnek: kelime1, kelime2, kelime3)';
@@ -672,18 +679,14 @@ $LNG['this_month'] = 'Bu Ay';
 $LNG['this_year'] = 'Bu Yıl';
 $LNG['total'] = 'Toplam';
 $LNG['total_likes'] = 'Toplam Beğeniler';
+$LNG['date'] = 'Tarih';
+$LNG['evolution'] = 'Evrim';
 
-$LNG['messages_posted'] = 'Gönderilen Mesajlar';
-$LNG['comments_posted'] = 'Gönderilen Yorumlar';
-$LNG['stats_reports'] = 'Raporlar';
-$LNG['total_reports'] = 'Toplam Rapor';
-$LNG['pending_reports'] = 'Onay Bekleyen Rapor';
-$LNG['safe_reports'] = 'Güvenilir Raporlar';
-$LNG['deleted_reports'] = 'Silinmiş Raporlar';
-$LNG['liked_messages'] = 'Beğenilmiş Mesajlar';
-$LNG['shared_messages'] = 'Paylaşılmış Mesajlar';
-$LNG['groups_created'] = 'Grup Oluşturuldu';
-$LNG['pages_created'] = 'Sayfa Oluşturuldu';
+$LNG['reports'] = 'Raporlar';
+$LNG['total_reports'] = 'Toplam Raporlar';
+$LNG['pending_reports'] = 'Onay Bekleyen Raporlar';
+$LNG['safe_reports'] = 'Güvenli Rporlar';
+$LNG['deleted_reports'] = 'Silinen Raporlar';
 
 // DASHBOARD
 $LNG['admin_panel'] = 'Yönetici Ekranı';
@@ -742,6 +745,9 @@ $LNG['password_recovery'] = 'Şifre Kurtarma';
 $LNG['recover']	= 'Kurtar';
 $LNG['recover_sub_username'] = 'Şifresini kurtarmak istediğiniz bir kullanıcı adı yada email giriniz';
 $LNG['tracking_code'] = 'İzleme kodu';
+$LNG['friends_limit'] = 'Arkadaş edinme sınırına ulaştınız';
+$LNG['user_friends_limit'] = 'Bu kullanıcı arkadaş sınırına ulaştı';
+$LNG['last_online'] = 'Görüldü: %s';
 
 // PAGE
 $LNG['create_page'] = 'Sayfa Oluştur';
@@ -769,6 +775,8 @@ $LNG['page_desc_less'] = 'Sayfa açıklaması %s karakterden az olmalı';
 $LNG['invalid_phone'] = 'Telefon numarası sadece rakamlar ,artı (+) ve (-) işaretlerinden oluşabilir.';
 $LNG['page_delete_desc'] = 'Sayfayı silerek aynı zamanda içeriğininde yok olmasına sebeb olacaktır.';
 $LNG['page_deleted'] = 'Sayfa <strong>%s</strong> silinmiş';
+$LNG['page_maximum'] = 'İzin verilen maksimum sayfa sayısına ulaştınız (%s).';
+$LNG['group_maximum'] = 'İzin verilen maksimum grup sayısına ulaştınız  (%s).';
 
 // PAGE CATEGORIES
 $LNG['select_category'] = 'Bir Kategori Seç';
@@ -825,6 +833,7 @@ $LNG['invite_friends'] = 'Arkadaşlarını Davet Et';
 // PROFILE
 $LNG['profile_not_exist'] = 'Üzgünüz, böyle bir profil bulunmuyor.';
 $LNG['group_not_exist'] = 'Üzgünüz, böyle bir grup bulunmuyor.';
+$LNG['page_not_exists'] = 'Üzgünüz, böyle bir sayfa bulunmuyor.';
 $LNG['profile_semi_private'] = 'Üzgünüz,bu profil özeldir, sadece arkadaşları bu profili görüntüleyebilir.';
 $LNG['profile_private'] = 'Üzgünüz, bu profil tamamıyla özeldir.';
 $LNG['profile_suspended'] = 'Üzgünüz, bu profil askıya alınmış.';
@@ -898,7 +907,9 @@ $LNG['yes'] = 'Evet';
 $LNG['no'] = 'Hayır';
 $LNG['none'] = 'Hiçbiri';
 $LNG['pages'] = 'Sayfalar';
-$LNG['search_for_people'] = 'Kişileri ara, #hashtags, @sayfalar, !gruplar';
+$LNG['search_for_people'] = 'Kişileri ara, #hashtags';
+$LNG['search_pages'] = ', @sayfalar';
+$LNG['search_groups'] = ', !gruplar';
 $LNG['new_message'] = 'Yeni Mesajlar';
 $LNG['privacy_policy'] = 'Gizlilik Politikası';
 $LNG['terms_of_use'] = 'Kullanım Kılavuzu';
@@ -910,29 +921,36 @@ $LNG['language'] = 'Dil';
 
 // TIME
 $LNG['just_now'] = 'şu anda';
-$LNG['second_s'] = 'saniye';
-$LNG['minute_s'] = 'dakika';
-$LNG['hour_s'] = 'saat';
-$LNG['day_s'] = 'gün';
-$LNG['week_s'] = 'hafta';
-$LNG['month_s'] = 'ay';
-$LNG['year_s'] = 'yıl';
+$LNG['ta_second'] = 'bir saniye';
+$LNG['ta_seconds'] = '%d sanye';
+$LNG['ta_minute'] = 'bir dakika';
+$LNG['ta_minutes'] = '%d dakika';
+$LNG['ta_hour'] = 'bir saat';
+$LNG['ta_hours'] = '%d saat';
+$LNG['ta_day'] = 'bir gün';
+$LNG['ta_days'] = '%d gün';
+$LNG['ta_week'] = 'a hafta';
+$LNG['ta_weeks'] = '%d hafta';
+$LNG['ta_month'] = 'bir ay';
+$LNG['ta_months'] = '%d ay';
+$LNG['ta_year'] = 'bir yıl';
+$LNG['ta_years'] = '%d yıl';
 $LNG['ago'] = 'önce';
 
 // MONTHS
-$LNG['month'] = 'Ay';
-$LNG['year'] = 'Yıl';
-$LNG['day'] = 'Gün';
-$LNG['month_1'] = 'Ocak';
-$LNG['month_2'] = 'Şubat';
-$LNG['month_3'] = 'Mart';
-$LNG['month_4'] = 'Nisan';
-$LNG['month_5'] = 'Mayıs';
-$LNG['month_6'] = 'Haziran';
-$LNG['month_7'] = 'Temmuz';
-$LNG['month_8'] = 'Ağustos';
-$LNG['month_9'] = 'Eylül';
-$LNG['month_10'] = 'Ekim';
-$LNG['month_11'] = 'Kasım';
-$LNG['month_12'] = 'Aralık';
+$LNG['month'] = 'Month';
+$LNG['year'] = 'Year';
+$LNG['day'] = 'Day';
+$LNG['month_1'] = 'January';
+$LNG['month_2'] = 'February';
+$LNG['month_3'] = 'March';
+$LNG['month_4'] = 'April';
+$LNG['month_5'] = 'May';
+$LNG['month_6'] = 'June';
+$LNG['month_7'] = 'July';
+$LNG['month_8'] = 'August';
+$LNG['month_9'] = 'September';
+$LNG['month_10'] = 'October';
+$LNG['month_11'] = 'November';
+$LNG['month_12'] = 'December';
 ?>
