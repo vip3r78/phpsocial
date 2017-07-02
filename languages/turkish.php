@@ -125,7 +125,7 @@ $LNG['active'] = 'Aktif';
 $LNG['activate'] = 'Aktifleştir';
 $LNG['deactivate'] = 'Aktivasyonu kaldır';
 $LNG['by'] = 'ile';
-$LNG['settings'] = 'Ayarlar'
+$LNG['settings'] = 'Ayarlar';
 
 // FEED
 $LNG['welcome_feed_ttl'] = 'Haber akışınıza hoşgeldiniz';
