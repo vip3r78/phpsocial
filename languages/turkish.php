@@ -919,6 +919,15 @@ $LNG['contact'] = 'İletişim';
 $LNG['developers'] = 'Geliştiriciler';
 $LNG['language'] = 'Dil';
 
+// EMOJIS
+$LNG['emoji_people'] = 'Gülen yüzler';
+$LNG['emoji_animals'] = 'Hayvanlar ve Doğa';
+$LNG['emoji_food'] = 'Yiyecek ve İçecek';
+$LNG['emoji_activities'] = 'Aktiviteler';
+$LNG['emoji_travel'] = 'Seyahat ve Yerler';
+$LNG['emoji_objects'] = 'Objeler';
+$LNG['emoji_symbols'] = 'Simgeler';
+
 // TIME
 $LNG['just_now'] = 'şu anda';
 $LNG['ta_second'] = 'bir saniye';
