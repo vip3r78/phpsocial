@@ -211,7 +211,7 @@ $LNG['sidebar_male'] = 'Homme';
 $LNG['sidebar_female'] = 'Femme';
 $LNG['all_genders'] = 'Tous les sexes';
 $LNG['online_friends'] = 'Amis en ligne';
-$LNG['sidebar_likes'] = '"J\'aime"';
+$LNG['sidebar_likes'] = 'J\'aime';
 $LNG['sidebar_comments'] = 'Commentaires';
 $LNG['sidebar_friendships'] = 'Amitiés';
 $LNG['sidebar_chats'] = 'Chats';
@@ -669,7 +669,7 @@ $LNG['chat_picture'] = 'Charger l\'image';
 $LNG['chat_camera'] = 'Prendre une photo';
 
 // STATS
-$LNG['likes'] = '"J\'aime"';
+$LNG['likes'] = 'J\'aime';
 $LNG['messages'] = 'Publications';
 $LNG['comments'] = 'Commentaires';
 $LNG['registered_users'] = 'Utilisateurs inscrits';
