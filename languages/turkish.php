@@ -79,12 +79,12 @@ $LNG['notif_success_saved'] = 'Bildirimler başarılı bir şekilde güncellendi
 
 // MAIL CONTENT
 $LNG['welcome_mail'] = '%s e Hoşgeldiniz' ;
-$LNG['user_created'] = '<strong>%s</strong> e katıldığınız için teşekkür ederiz.<br /><br />Kullanıcı Adınız: <strong>%s</strong><br />Şifreniz: <strong>%s</strong><br /><br />Buradan giriş yapabilirsiniz: <a href="%s" target="_blank">%s</a>';
+$LNG['user_created'] = '<strong>%s</strong> e katıldığınız için teşekkür ederiz.<br><br>Kullanıcı Adınız: <strong>%s</strong><br><br>Buradan giriş yapabilirsiniz: <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Şifre Kurtarma';
-$LNG['recover_content'] = 'Bir şifre kurtarma talep edildi ,eğer bu talebi siz gerçekleştirmediyseniz bu maili göz ardı ediniz. <br /><br />Kullanıcı Adınız: <strong>%s</strong><br />Sıfırlama anahtarınız: <strong>%s</strong><br /><br />Buradaki linki tıklayarak şifrenizi sıfırlayabilirsiniz : <a href="%s" target="_blank">%s</a>';
-$LNG['email_hello'] = 'Merhaba <strong>%s</strong>,<br /><br />';
-$LNG['email_unsub'] = '<br /><br /><span style="color: #aaa;">Bu mesaj otomatik olarak gönderilmiştir, eğer gelecekte bu gibi emailler almak istemiyorsanız <strong>%s</strong> , lütfen tıklayınız <a href="%s">Aboneliğimi iptal et</a>.</span>';
-$LNG['email_copy'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Tüm hakları saklıdır.';
+$LNG['recover_content'] = 'Bir şifre kurtarma talep edildi ,eğer bu talebi siz gerçekleştirmediyseniz bu maili göz ardı ediniz. <br><br>Kullanıcı Adınız: <strong>%s</strong><br>Sıfırlama anahtarınız: <strong>%s</strong><br><br>Buradaki linki tıklayarak şifrenizi sıfırlayabilirsiniz : <a href="%s" target="_blank">%s</a>';
+$LNG['email_hello'] = 'Merhaba <strong>%s</strong>,<br><br>';
+$LNG['email_unsub'] = '<br><br><span style="color: #aaa;">Bu mesaj otomatik olarak gönderilmiştir, eğer gelecekte bu gibi emailler almak istemiyorsanız <strong>%s</strong> , lütfen tıklayınız <a href="%s">Aboneliğimi iptal et</a>.</span>';
+$LNG['email_copy'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Tüm hakları saklıdır.';
 $LNG['ttl_comment_email'] = '%s mesajınıza yorum yapıldı';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> mesajınıza yorum yaptı <strong><a href="%s">.</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_like_email'] = '%s mesajınızı beğendi';
@@ -103,6 +103,10 @@ $LNG['ttl_suspended_account_mail'] = 'Hesabınız askıya alınmıştır ';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Hesabınız askıya alınmıştır .Eğer bir hata olduğunu düşünüyorsanız ,lütfen bizim ile iletişime geçiniz.'.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Hesabınızı aktif ediniz';
 $LNG['confirm_email'] = $LNG['email_hello'].' <strong>%s</strong> katılımınız için teşekkür ederiz. Kayıt işleminizi <a href="%s" target="_blank"> bu linke tıklayarak tamamlayınız </a>.'.$LNG['email_copy'];
+$LNG['ttl_mention_email'] = '%s senden bahsetti mesajda';
+$LNG['ttl_mention_c_email'] = '%s senden bahsetti yorumda';
+$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> senden bahsetti <strong><a href="%s">mesajda.</a></strong>'.$LNG['email_unsub'];
+$LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> senden bahsetti <strong><a href="%s">yorumda.</a></strong>'.$LNG['email_unsub'];
 
 // PHP MODULES
 $LNG['openssl_error'] = '<strong>OpenSSL</strong> eklentisinin sunucuda izin verilmiş olmalıdır.';
@@ -200,6 +204,7 @@ $LNG['sidebar_shared'] = 'Paylaşımlar';
 $LNG['sidebar_pages'] = 'Sayfalar';
 $LNG['sidebar_groups'] = 'Gruplar';
 $LNG['sidebar_pokes'] = 'Dürtmeler';
+$LNG['sidebar_mentions'] = 'Bahsedenler';
 $LNG['all_time'] = 'Tüm zamalar';
 $LNG['friends'] = 'Arkadaşlar';
 $LNG['mutual' ] = 'Ortak';
@@ -255,7 +260,6 @@ $LNG['event_not_exist'] = 'Seçtiğiniz etkinlik mevcut değil, sayfayı yeniley
 $LNG['change_privacy'] = 'Bu mesajı kimler görmeli';
 
 $LNG['message_too_long'] = 'Üzgünüz, herbir mesaj için izin verilen maksimum boyut <strong>%s</strong>.';
-$LNG['files_selected'] = 'resim(ler) seçildi';
 $LNG['too_many_images'] = 'Herbir mesajda izin verilen maksimum yüklenebilir resim sayısı <strong>%s</strong>, yüklemeye çalıştığınız resim sayısı <strong>%s</strong> .';
 
 // USER PANEL
@@ -381,19 +385,22 @@ $LNG['default'] = 'Varsayılan';
 $LNG['make_default'] = 'Varsayılan yap';
 
 $LNG['ttl_notificationl'] = 'Beğeni Bildirimleri';
-$LNG['sub_notificationl'] = '<strong>Beğeniler</strong> için uyarı ve bildirimleri göster ';
+$LNG['sub_notificationl'] = '<strong>Beğeniler</strong> için uyarı ve bildirimleri göster';
 
 $LNG['ttl_notificationc'] = 'Yorum Bildirimleri';
 $LNG['sub_notificationc'] = '<strong>Yorumlar</strong> için uyarı ve bildirimleri göster ';
 
 $LNG['ttl_notifications'] = 'Mesaj Bildirimleri';
-$LNG['sub_notifications'] = '<strong>Mesajlar</strong> için uyarı ve bildirimleri göster ';
+$LNG['sub_notifications'] = '<strong>Mesajlar</strong> için uyarı ve bildirimleri göster';
 
 $LNG['ttl_notificationd'] = 'Sohbet Bildirimleri';
-$LNG['sub_notificationd'] = '<strong>Sohbetler</strong> için uyarı ve bildirimleri göster ';
+$LNG['sub_notificationd'] = '<strong>Sohbetler</strong> için uyarı ve bildirimleri göster';
 
 $LNG['ttl_notificationf'] = 'Arkadaşlık Bildirimleri';
-$LNG['sub_notificationf'] = '<strong>Arkadaşlık</strong> için uyarı ve bildirimleri göster ';
+$LNG['sub_notificationf'] = '<strong>Arkadaşlık</strong> için uyarı ve bildirimleri göster';
+
+$LNG['ttl_notificationm'] = 'Bahsetme bildirimleri';
+$LNG['sub_notificationm'] = 'Uyarı ve bildirim göster<strong>Bahsetmeler</strong>';
 
 $LNG['ttl_notificationx'] = 'Sayfa Bildirimleri';
 $LNG['sub_notificationx'] = '<strong>Sayfayı Beğen </strong> davetleri için uyarı ve bildirimleri göster';
@@ -418,6 +425,9 @@ $LNG['sub_email_like'] = 'Birisi mesajınızı beğendiğinde mail gelsin';
 
 $LNG['ttl_email_new_friend'] = 'Arkadaşlıklarda Email';
 $LNG['sub_email_new_friend'] = 'Bir arkadaşlık isteğinde yada onaylandığında mail gelsin';
+
+$LNG['ttl_email_mention'] = 'Bahsetme e-mailler';
+$LNG['sub_email_mention'] = 'Birisi senden bahsettiğinde mail al';
 
 $LNG['ttl_email_page'] = 'Sayfa Davetinde Email';
 $LNG['sub_email_page'] = 'Birisi sizi sayfa beğenmek için davet ettiğinde mail gelsin';
@@ -597,6 +607,9 @@ $LNG['admin_sub_email_comment'] = 'Mesaja yorum geldiğinde email göndermeye m�
 $LNG['admin_ttl_email_like'] = 'Beğenide Email';
 $LNG['admin_sub_email_like'] = ' Mesaj beğenildiğinde email göndermeye müsaade et (kullanıcının ayarlarının üzerine yazar)';
 
+$LNG['admin_ttl_email_mention' ] = 'Bahsetme e-mail';
+$LNG['admin_sub_email_mention' ] = 'Birisi başka birisinden bahsettiğinde email gönderimi yapılsın (kullanıcının ayarlarının üzerine yazar)';
+
 $LNG['admin_ttl_email_new_friend'] = 'Arkadaşlıklarda Email';
 $LNG['admin_sub_email_new_friend'] = 'Arkadaşlık daveti ve onayı geldiğinde email gönderimine müsaade et(kullanıcının ayarlarının üzerine yazar)';
 
@@ -608,9 +621,6 @@ $LNG['admin_sub_email_group'] = 'Grup davetiyesi geldiğinde email gönderimine 
 
 $LNG['admin_ttl_ilimit'] = 'Max. Resimler';
 $LNG['admin_sub_ilimit'] = 'Her mesajda yüklenebilecek maksimum resim sayısı';
-
-$LNG['admin_ttl_wholiked'] = 'Kim Beğendi';
-$LNG['admin_sub_wholiked'] = 'Beğeni sayısının yanında gözükecek profil resmi sayısı';
 
 $LNG['admin_ttl_sperpage'] = 'Üyeler';
 $LNG['admin_sub_sperpage'] = 'Her sayfada görüntülenecek üye sayısı (Profil Arkadaşları, Grup Üyeleri)';
@@ -713,14 +723,16 @@ $LNG['like'] = 'Beğen';
 $LNG['dislike'] = 'Beğenme';
 $LNG['liked'] = 'Beğendi';
 $LNG['liked_this'] = 'Bunu beğendi';
-$LNG['view_all_likes'] = 'Bütün beğenileri göster';
-$LNG['people_who_like_this'] = 'Beğenen kişiler';
+$LNG['view_who_liked'] = 'Kim beğenildiğini göster';
+$LNG['view_who_shared'] = 'Kimin paylaştığını görün';
 
 // MISC
 $LNG['sponsored'] = 'Sponsorlu';
 $LNG['censored'] = '<strong>sansürlü</strong>';
-$LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a>  <a href="%s" rel="loadpage">mesajınızı beğendi</a>';
-$LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a><a href="%s" rel="loadpage">yorumunuzu beğendi</a>';
+$LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> <a href="%s" rel="loadpage">mesajınızı beğendi</a>';
+$LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a> <a href="%s" rel="loadpage">yorumunuzu beğendi</a>';
+$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> senden bahsetti<a href="%s" rel="loadpage">yorumda</a>';
+$LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s</a> vous a mentionné dans un <a href="%s" rel="loadpage">commentaire</a>';
 $LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> sizi dürttü';
 $LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> <a href="%s" rel="loadpage">mesajınıza yorum yaptı</a>';
 $LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> <a href="%s" rel="loadpage">mesajınızı paylaştı</a>';
@@ -748,6 +760,7 @@ $LNG['tracking_code'] = 'İzleme kodu';
 $LNG['friends_limit'] = 'Arkadaş edinme sınırına ulaştınız';
 $LNG['user_friends_limit'] = 'Bu kullanıcı arkadaş sınırına ulaştı';
 $LNG['last_online'] = 'Görüldü: %s';
+$LNG['show_in_tab'] = 'Sekmede göster';
 
 // PAGE
 $LNG['create_page'] = 'Sayfa Oluştur';
@@ -947,19 +960,19 @@ $LNG['ta_years'] = '%d yıl';
 $LNG['ago'] = 'önce';
 
 // MONTHS
-$LNG['month'] = 'Month';
-$LNG['year'] = 'Year';
-$LNG['day'] = 'Day';
-$LNG['month_1'] = 'January';
-$LNG['month_2'] = 'February';
-$LNG['month_3'] = 'March';
-$LNG['month_4'] = 'April';
-$LNG['month_5'] = 'May';
-$LNG['month_6'] = 'June';
-$LNG['month_7'] = 'July';
-$LNG['month_8'] = 'August';
-$LNG['month_9'] = 'September';
-$LNG['month_10'] = 'October';
-$LNG['month_11'] = 'November';
-$LNG['month_12'] = 'December';
+$LNG['month'] = 'Ay';
+$LNG['year'] = 'Yıl';
+$LNG['day'] = 'Gün';
+$LNG['month_1'] = 'Ocak';
+$LNG['month_2'] = 'Şubat';
+$LNG['month_3'] = 'Mart';
+$LNG['month_4'] = 'Nisan';
+$LNG['month_5'] = 'Mayıs';
+$LNG['month_6'] = 'Haziran';
+$LNG['month_7'] = 'Temmuz';
+$LNG['month_8'] = 'Ağustos';
+$LNG['month_9'] = 'Eylül';
+$LNG['month_10'] = 'Ekim';
+$LNG['month_11'] = 'Kasım';
+$LNG['month_12'] = 'Aralık';
 ?>

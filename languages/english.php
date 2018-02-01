@@ -79,12 +79,12 @@ $LNG['notif_success_saved'] = 'Notifications has been successfully updated.';
 
 // MAIL CONTENT
 $LNG['welcome_mail'] = 'Welcome to %s';
-$LNG['user_created'] = 'Thank you for joining <strong>%s</strong>.<br /><br />Your username: <strong>%s</strong><br />Your Password: <strong>%s</strong><br /><br />You can log-in at: <a href="%s" target="_blank">%s</a>';
+$LNG['user_created'] = 'Thank you for joining <strong>%s</strong>.<br><br>Your username: <strong>%s</strong><br><br>You can log-in at: <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Password Recovery';
-$LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br /><br />Your Username: <strong>%s</strong><br />Your Reset Key: <strong>%s</strong><br /><br />You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>';
-$LNG['email_hello'] = 'Hello <strong>%s</strong>,<br /><br />';
-$LNG['email_unsub'] = '<br /><br /><span style="color: #aaa;">This message was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
-$LNG['email_copy'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
+$LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br><br>Your Username: <strong>%s</strong><br>Your Reset Key: <strong>%s</strong><br><br>You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>';
+$LNG['email_hello'] = 'Hello <strong>%s</strong>,<br><br>';
+$LNG['email_unsub'] = '<br><br><span style="color: #aaa;">This message was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
+$LNG['email_copy'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
 $LNG['ttl_comment_email'] = '%s commented on your message';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has commented on your <strong><a href="%s">message.</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_like_email'] = '%s liked your message';
@@ -103,6 +103,10 @@ $LNG['ttl_suspended_account_mail'] = 'Your account has been suspended';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Your account has been suspended. If you think this was an error, please contact us.'.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Activate your account';
 $LNG['confirm_email'] = $LNG['email_hello'].'Thank you for joining <strong>%s</strong>. Finish your registration by <a href="%s" target="_blank">clicking here</a>.'.$LNG['email_copy'];
+$LNG['ttl_mention_email'] = '%s mentioned you in a message';
+$LNG['ttl_mention_c_email'] = '%s mentioned you in a comment';
+$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has mentioned you in a <strong><a href="%s">message.</a></strong>'.$LNG['email_unsub'];
+$LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has mentioned you in a <strong><a href="%s">comment.</a></strong>'.$LNG['email_unsub'];
 
 // PHP MODULES
 $LNG['openssl_error'] = 'You must enable <strong>OpenSSL</strong> extension on the server';
@@ -200,6 +204,7 @@ $LNG['sidebar_shared'] = 'Shared';
 $LNG['sidebar_pages'] = 'Pages';
 $LNG['sidebar_groups'] = 'Groups';
 $LNG['sidebar_pokes'] = 'Pokes';
+$LNG['sidebar_mentions'] = 'Mentions';
 $LNG['all_time'] = 'All time';
 $LNG['friends'] = 'Friends';
 $LNG['mutual' ] = 'Mutual';
@@ -255,7 +260,6 @@ $LNG['event_not_exist'] = 'The selected event does not exist, please refresh the
 $LNG['change_privacy'] = 'Who should see the message';
 
 $LNG['message_too_long'] = 'Sorry, but the maximum characters allowed per message is <strong>%s</strong>.';
-$LNG['files_selected'] = 'image(s) selected';
 $LNG['too_many_images'] = 'The maximum number of images allowed to be uploaded per message is <strong>%s</strong>, you tried to upload <strong>%s</strong> images.';
 
 // USER PANEL
@@ -395,6 +399,9 @@ $LNG['sub_notificationd'] = 'Display alert and notifications for <strong>Chats</
 $LNG['ttl_notificationf'] = 'Friends Notifications';
 $LNG['sub_notificationf'] = 'Display alert and notifications for <strong>Confirmed Friendships</strong>';
 
+$LNG['ttl_notificationm'] = 'Mention Notifications';
+$LNG['sub_notificationm'] = 'Display alert and notifications for <strong>Mentions</strong>';
+
 $LNG['ttl_notificationx'] = 'Pages Notifications';
 $LNG['sub_notificationx'] = 'Display alert and notifications for <strong>Like a Page</strong> invitations';
 
@@ -418,6 +425,9 @@ $LNG['sub_email_like'] = 'Receive emails when someone likes your messages';
 
 $LNG['ttl_email_new_friend'] = 'Emails on Friendships';
 $LNG['sub_email_new_friend'] = 'Receive emails when someone sends or confirms a friend request';
+
+$LNG['ttl_email_mention'] = 'Emails on Mentions';
+$LNG['sub_email_mention'] = 'Receive emails when someone mentions you';
 
 $LNG['ttl_email_page'] = 'Email Page Invite';
 $LNG['sub_email_page'] = 'Receive emails when someone invites you to like a page';
@@ -597,6 +607,9 @@ $LNG['admin_sub_email_comment'] = 'Enable sending emails when someone comments t
 $LNG['admin_ttl_email_like'] = 'Email on Like';
 $LNG['admin_sub_email_like'] = 'Enable sending emails when someone likes a message (overrides user\'s settings)';
 
+$LNG['admin_ttl_email_mention'] = 'Email on Mention';
+$LNG['admin_sub_email_mention'] = 'Enable sending emails when someone mentions someone else (overrides user\'s settings)';
+
 $LNG['admin_ttl_email_new_friend'] = 'Email on Friendships';
 $LNG['admin_sub_email_new_friend'] = 'Enable sending emails when someone sends or confirms a friend request (overrides user\'s settings)';
 
@@ -608,9 +621,6 @@ $LNG['admin_sub_email_group'] = 'Enable sending emails when someone sends a grou
 
 $LNG['admin_ttl_ilimit'] = 'Images (Messages)';
 $LNG['admin_sub_ilimit'] = 'The maximum images allowed to be uploaded per message';
-
-$LNG['admin_ttl_wholiked'] = 'Who Liked';
-$LNG['admin_sub_wholiked'] = 'The number of profile images to be shown near likes number';
 
 $LNG['admin_ttl_sperpage'] = 'Users';
 $LNG['admin_sub_sperpage'] = 'Number of users to be displayed per page (Profile Friends, Group Users)';
@@ -713,14 +723,16 @@ $LNG['like'] = 'Like';
 $LNG['dislike'] = 'Unlike';
 $LNG['liked'] = 'Liked';
 $LNG['liked_this'] = 'liked this';
-$LNG['view_all_likes'] = 'View all likes';
-$LNG['people_who_like_this'] = 'People who like this';
+$LNG['view_who_liked'] = 'View who liked';
+$LNG['view_who_shared'] = 'View who shared';
 
 // MISC
 $LNG['sponsored'] = 'Sponsored';
 $LNG['censored'] = '<strong>censored</strong>';
 $LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> liked your <a href="%s" rel="loadpage">message</a>';
 $LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a> liked your <a href="%s" rel="loadpage">comment</a>';
+$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> mentioned you in a <a href="%s" rel="loadpage">message</a>';
+$LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s</a> mentioned you in a <a href="%s" rel="loadpage">comment</a>';
 $LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> poked you';
 $LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> commented on your <a href="%s" rel="loadpage">message</a>';
 $LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> shared your <a href="%s" rel="loadpage">message</a>';
@@ -748,6 +760,7 @@ $LNG['tracking_code'] = 'Tracking Code';
 $LNG['friends_limit'] = 'You\'ve reached the friends limit';
 $LNG['user_friends_limit'] = 'This user reached the friends limit';
 $LNG['last_online'] = 'Seen: %s';
+$LNG['show_in_tab'] = 'Show in tab';
 
 // PAGE
 $LNG['create_page'] = 'Create Page';

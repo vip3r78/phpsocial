@@ -79,12 +79,12 @@ $LNG['notif_success_saved'] = 'Notificările au fost actualizate cu succes.';
 
 // MAIL CONTENT
 $LNG['welcome_mail'] = 'Bine ai venit la %s';
-$LNG['user_created'] = 'Mulțumim că te-ai alăturat <strong>%s</strong>.<br /><br />Nume utilizator: <strong>%s</strong><br />Parola: <strong>%s</strong><br /><br />Te poți autentifica la: <a href="%s" target="_blank">%s</a>';
+$LNG['user_created'] = 'Mulțumim că te-ai alăturat <strong>%s</strong>.<br><br>Nume utilizator: <strong>%s</strong><br><br>Te poți autentifica la: <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Recuperare parolă';
-$LNG['recover_content'] = 'O cerere de recuperare a parolei a fost cerută. Dacă nu ești tu cel care a inițiat această acțiune, te rugăm să ignori acest email. <br /><br />Nume utilizator: <strong>%s</strong><br />Cheia de resetare: <strong>%s</strong><br /><br />Vă puteți reseta parola accesând următorul link: <a href="%s" target="_blank">%s</a>';
-$LNG['email_hello'] = 'Bună ziua <strong>%s</strong>,<br /><br />';
-$LNG['email_unsub'] = '<br /><br /><span style="color: #aaa;">Acest mesaj a fost trimis automat, dacă nu doriți să mai primiți astfel de mesaje de la <strong>%s</strong> în viitor, vă rugam să vă <a href="%s">Dezabonați</a>.</span>';
-$LNG['email_copy'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Toate drepturile rezervate.';
+$LNG['recover_content'] = 'O cerere de recuperare a parolei a fost cerută. Dacă nu ești tu cel care a inițiat această acțiune, te rugăm să ignori acest email. <br><br>Nume utilizator: <strong>%s</strong><br>Cheia de resetare: <strong>%s</strong><br><br>Vă puteți reseta parola accesând următorul link: <a href="%s" target="_blank">%s</a>';
+$LNG['email_hello'] = 'Bună ziua <strong>%s</strong>,<br><br>';
+$LNG['email_unsub'] = '<br><br><span style="color: #aaa;">Acest mesaj a fost trimis automat, dacă nu doriți să mai primiți astfel de mesaje de la <strong>%s</strong> în viitor, vă rugam să vă <a href="%s">Dezabonați</a>.</span>';
+$LNG['email_copy'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Toate drepturile rezervate.';
 $LNG['ttl_comment_email'] = '%s a comentat la mesajul tău';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> a comentat la <strong><a href="%s">mesajul</a></strong> tău.'.$LNG['email_unsub'];
 $LNG['ttl_like_email'] = '%s a apreciat mesajul tău';
@@ -103,6 +103,10 @@ $LNG['ttl_suspended_account_mail'] = 'Contul dumneavoastră a fost suspendat';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Contul tău a fost suspendat. Dacă consideri ca a fost o eroare, te rugăm să ne contactezi.'.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Activează-ți contul';
 $LNG['confirm_email'] = $LNG['email_hello'].'Mulțumim că te-ai alăturat <strong>%s</strong>. Finalizați înregistrarea <a href="%s" target="_blank">dând click aici</a>.'.$LNG['email_copy'];
+$LNG['ttl_mention_email'] = '%s te-a menționat într-un mesaj';
+$LNG['ttl_mention_c_email'] = '%s te-a menționat într-un comentariu';
+$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> te-a menționat într-un <strong><a href="%s">mesaj.</a></strong>'.$LNG['email_unsub'];
+$LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> te-a menționat într-un <strong><a href="%s">comentariu.</a></strong>'.$LNG['email_unsub'];
 
 // PHP MODULES
 $LNG['openssl_error'] = 'Trebuie să activezi extensia <strong>OpenSSL</strong> pe server';
@@ -172,7 +176,7 @@ $LNG['download'] = 'Descarcă';
 $LNG['1_not_exists'] = 'Mesajul raportat nu există.';
 $LNG['0_not_exists'] = 'Comentariul raportat nu există.';
 $LNG['1_already_reported'] = 'Acest mesaj a fost deja raportat și v-a fi analizat în cel mai scurt timp posibil, vă mulțumim.';
-$LNG['0_already_reported'] = 'Acest ocmentariu a fost deja raportat si v-a fi analizat în cel mai scurt timp posibil, vă multumim.';
+$LNG['0_already_reported'] = 'Acest comentariu a fost deja raportat si v-a fi analizat în cel mai scurt timp posibil, vă multumim.';
 $LNG['1_is_safe'] = 'Acest mesaj a fost marcat ca fiind <strong>sigur</strong> de un administrator, vă mulțumim pentru feedback.';
 $LNG['0_is_safe'] = 'Acest comentariu a fost marcat ca fiind <strong>sigur</strong> de un administrator, vă mulțumim pentru feedback.';
 $LNG['1_report_added'] = 'Mesajul a fost raportat, vă mulțumim de feedback.';
@@ -200,6 +204,7 @@ $LNG['sidebar_shared'] = 'Distribuite';
 $LNG['sidebar_pages'] = 'Pagini';
 $LNG['sidebar_groups'] = 'Grupuri';
 $LNG['sidebar_pokes'] = 'Ciupituri';
+$LNG['sidebar_mentions'] = 'Menționări';
 $LNG['all_time'] = 'Tot timpul';
 $LNG['friends'] = 'Prieteni';
 $LNG['mutual'] = 'Mutuali';
@@ -255,7 +260,6 @@ $LNG['event_not_exist'] = 'Evenimentul selectat nu există. vă rugăm reîncăr
 $LNG['change_privacy'] = 'Cine ar trebui să vadă mesajul';
 
 $LNG['message_too_long'] = 'Ne pare rău dar număul maxim de caractere pe mesaj admis este de <strong>%s</strong>.';
-$LNG['files_selected'] = 'fotografii selectate';
 $LNG['too_many_images'] = 'Numărul maxim de fotografii admise pe mesaj este de <strong>%s</strong>, ați încercat să încărcați <strong>%s</strong> fotografii.';
 
 // USER PANEL
@@ -395,6 +399,9 @@ $LNG['sub_notificationd'] = 'Afișează alertă și notificare pentru <strong>Co
 $LNG['ttl_notificationf'] = 'Notificări Prietenii Noi';
 $LNG['sub_notificationf'] = 'Afișează alertă și notificare pentru <strong>Prietenii Confirmate</strong>';
 
+$LNG['ttl_notificationm'] = 'Notificări Menționări';
+$LNG['sub_notificationm'] = 'Afișează alertă și notificare pentru <strong>Menționări</strong>';
+
 $LNG['ttl_notificationx'] = 'Notificări Pagini';
 $LNG['sub_notificationx'] = 'Afișează alertă și notificare pentru invitații să <strong>Apreciezi Pagini</strong>';
 
@@ -418,6 +425,9 @@ $LNG['sub_email_like'] = 'Primește email când cineva apreciază un mesaj de-al
 
 $LNG['ttl_email_new_friend'] = 'Email la Prietenii';
 $LNG['sub_email_new_friend'] = 'Primește email când cineva îți trimite sau confirmă o cerere de prietenie';
+
+$LNG['ttl_email_mention'] = 'Emails on Menționări';
+$LNG['sub_email_mention'] = 'Primește email când cineva te menționează';
 
 $LNG['ttl_email_page'] = 'Email Invitații Pagini';
 $LNG['sub_email_page'] = 'Primește email cand cineva te invită să apreciezi o pagină';
@@ -597,6 +607,9 @@ $LNG['admin_sub_email_comment'] = 'Permite trimiterea de emailuri când cineva c
 $LNG['admin_ttl_email_like'] = 'Email Aprecieri';
 $LNG['admin_sub_email_like'] = 'Permite trimiterea de emailuri când cineva comentează apreciază un mesaj (suprascrie opțiunea utilizatorului)';
 
+$LNG['admin_ttl_email_like'] = 'Email Menționări';
+$LNG['admin_sub_email_like'] = 'Permite trimiterea de emailuri când cineva menționează pe altcineva (suprascrie opțiunea utilizatorului)';
+
 $LNG['admin_ttl_email_new_friend'] = 'Email Prietenii Noi';
 $LNG['admin_sub_email_new_friend'] = 'Permite trimiterea de emailuri când cineva adaugă un prieten nou (suprascrie opțiunea utilizatorului)';
 
@@ -608,9 +621,6 @@ $LNG['admin_sub_email_group'] = 'Permite trimiterea de emailuri când cineva tri
 
 $LNG['admin_ttl_ilimit'] = 'Imgini (Mesaje)';
 $LNG['admin_sub_ilimit'] = 'Numărul maxim de imagini permis pentru încărcare în mesaje';
-
-$LNG['admin_ttl_wholiked'] = 'Cine Apreciază';
-$LNG['admin_sub_wholiked'] = 'Numărul maxim de imagini de profil afișat lângă numărul de aprecieri';
 
 $LNG['admin_ttl_sperpage'] = 'Utilizatori';
 $LNG['admin_sub_sperpage'] = 'Numărul de utilizatori afișați pe pagină (Prieteni Profil, Utilizatori Grup)';
@@ -713,14 +723,16 @@ $LNG['like'] = 'Îmi Place';
 $LNG['dislike'] = 'Nu-mi place';
 $LNG['liked'] = 'Apreciat';
 $LNG['liked_this'] = 'a apreciat';
-$LNG['view_all_likes'] = 'Vezi toate aprecierile';
-$LNG['people_who_like_this'] = 'Persoane care apreciază asta';
+$LNG['view_who_liked'] = 'Vezi cine a apreciat';
+$LNG['view_who_shared'] = 'View cine a distribuit';
 
 // MISC
 $LNG['sponsored'] = 'Sponsorizat';
 $LNG['censored'] = '<strong>cenzurat</strong>';
 $LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> a apreciat <a href="%s" rel="loadpage">mesajul tău</a>';
 $LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a> a apreciat <a href="%s" rel="loadpage">comentariul tău</a>';
+$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> te-a menționat într-un <a href="%s" rel="loadpage">mesaj</a>';
+$LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s</a> te-a menționat într-un <a href="%s" rel="loadpage">comentariu</a>';
 $LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> te-a ciupit';
 $LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> a comentat la <a href="%s" rel="loadpage">mesajul tău</a>';
 $LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> a distribuit <a href="%s" rel="loadpage">mesajul tău</a>';
@@ -748,6 +760,7 @@ $LNG['tracking_code'] = 'Cod de monitorizare';
 $LNG['friends_limit'] = 'Ai atins limita de prieteni';
 $LNG['user_friends_limit'] = 'Acest user a atins limita de prieteni';
 $LNG['last_online'] = 'Văzut: %s';
+$LNG['show_in_tab'] = 'Afișează în filă';
 
 // PAGE
 $LNG['create_page'] = 'Creează o pagină';

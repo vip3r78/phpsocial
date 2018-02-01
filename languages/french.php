@@ -79,12 +79,12 @@ $LNG['notif_success_saved'] = 'Les notifications ont bien été mises à jour.';
 
 // MAIL CONTENT
 $LNG['welcome_mail'] = 'Bienvenue sur %s';
-$LNG['user_created'] = 'Merci de nous avoir rejoints sur <strong>%s</strong>.<br /><br />Votre nom d\'utilisateur : <strong>%s</strong><br />Votre mot de passe : <strong>%s</strong><br /><br />Vous pouvez vous connecter en cliquant sur ce lien : <a href="%s" target="_blank">%s</a>';
+$LNG['user_created'] = 'Merci de nous avoir rejoints sur <strong>%s</strong>.<br><br>Votre nom d\'utilisateur : <strong>%s</strong><br><br>Vous pouvez vous connecter en cliquant sur ce lien : <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Réinitialisation de mot de passe';
-$LNG['recover_content'] = 'Une réinitialisation de votre mot de passe a été demandée. Si vous n\'êtes pas à l\'origine de cette demande, ignorez ce message. <br /><br />Votre nom d\'utilisateur : <strong>%s</strong><br />Votre clé de réinitialisation : <strong>%s</strong><br /><br />Vous pouvez dès à présent réinitialiser votre mot de passe en accédant à cette adresse : <a href="%s" target="_blank">%s</a>';
-$LNG['email_hello'] = 'Bonjour <strong>%s</strong>,<br /><br />';
-$LNG['email_unsub'] = '<br /><br /><span style="color: #aaa;">Ce message a été envoyé automatiquement, si vous ne souhaitez plus recevoir ce type de message de <strong>%s</strong> dans le futur, <a href="%s">Désinscrivez-vous</a>.</span>';
-$LNG['email_copy'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Tous droits réservés.';
+$LNG['recover_content'] = 'Une réinitialisation de votre mot de passe a été demandée. Si vous n\'êtes pas à l\'origine de cette demande, ignorez ce message. <br><br>Votre nom d\'utilisateur : <strong>%s</strong><br>Votre clé de réinitialisation : <strong>%s</strong><br><br>Vous pouvez dès à présent réinitialiser votre mot de passe en accédant à cette adresse : <a href="%s" target="_blank">%s</a>';
+$LNG['email_hello'] = 'Bonjour <strong>%s</strong>,<br><br>';
+$LNG['email_unsub'] = '<br><br><span style="color: #aaa;">Ce message a été envoyé automatiquement, si vous ne souhaitez plus recevoir ce type de message de <strong>%s</strong> dans le futur, <a href="%s">Désinscrivez-vous</a>.</span>';
+$LNG['email_copy'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Tous droits réservés.';
 $LNG['ttl_comment_email'] = '%s a commenté votre message';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> a commencé votre <strong><a href="%s">message.</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_like_email'] = '%s aime votre message';
@@ -103,6 +103,10 @@ $LNG['ttl_suspended_account_mail'] = 'Votre compte a été suspendu';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Votre compte a été suspendu. Si vous pensez qu\'il s\'agit d\'une erreur, merci de nous contacter.'.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Activez votre compte';
 $LNG['confirm_email'] = $LNG['email_hello'].'Merci d\'avoir rejoint <strong>%s</strong>. Finalisez votre inscription en <a href="%s" target="_blank">cliquant ici</a>.'.$LNG['email_copy'];
+$LNG['ttl_mention_email'] = '%s vous a mentionné dans un message';
+$LNG['ttl_mention_c_email'] = '%s vous a mentionné dans un commentaire';
+$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> vous a mentionné dans un <strong><a href="%s">message.</a></strong>'.$LNG['email_unsub'];
+$LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> vous a mentionné dans un <strong><a href="%s">commentaire.</a></strong>'.$LNG['email_unsub'];
 
 // PHP MODULES
 $LNG['openssl_error'] = 'Vous devez activez l\'extension <strong>OpenSSL</strong> sur le serveur';
@@ -200,6 +204,7 @@ $LNG['sidebar_shared'] = 'Partagés';
 $LNG['sidebar_pages'] = 'Pages';
 $LNG['sidebar_groups'] = 'Groupes';
 $LNG['sidebar_pokes'] = 'Pokes';
+$LNG['sidebar_mentions'] = 'Mentions';
 $LNG['all_time'] = 'Toutes dates';
 $LNG['friends'] = 'Amis ';
 $LNG['mutual' ] = 'Mutuel';
@@ -255,7 +260,6 @@ $LNG['event_not_exist'] = 'L\'évènement sélectionné n\'existe pas, merci de 
 $LNG['change_privacy'] = 'Qui devrait voir le message';
 
 $LNG['message_too_long'] = 'Désolé, mais le nombre de caractères maximum autorisé par message est de <strong>%s</strong>.';
-$LNG['files_selected'] = 'image(s) sélectionnée(s)';
 $LNG['too_many_images'] = 'Le nombre d\'images maximum autorisé par message est de <strong>%s</strong>, vous souhaitiez charger <strong>%s</strong> images.';
 
 // USER PANEL
@@ -383,22 +387,25 @@ $LNG['make_default'] = 'Mettre par défaut';
 $LNG['ttl_notificationl'] = 'Notifications des "J\'aime"';
 $LNG['sub_notificationl'] = 'Afficher une alerte et les notifications pour les <strong>"J\'aime"</strong>';
 
-$LNG['ttl_notificationc'] = 'Notifications des commentaires';
+$LNG['ttl_notificationc'] = 'Notifications des Commentaires';
 $LNG['sub_notificationc'] = 'Afficher une alerte et les notifications pour les <strong>Commentaires</strong>';
 
-$LNG['ttl_notifications'] = 'Notifications des publications';
+$LNG['ttl_notifications'] = 'Notifications des Publications';
 $LNG['sub_notifications'] = 'Afficher une alerte et les notifications pour les <strong>Publications partagées</strong>';
 
 $LNG['ttl_notificationd'] = 'Notifications du Chat';
 $LNG['sub_notificationd'] = 'Afficher une alerte et les notifications pour les <strong>Chats</strong>';
 
-$LNG['ttl_notificationf'] = 'Notifications d\'amis';
+$LNG['ttl_notificationf'] = 'Notifications d\'Amis';
 $LNG['sub_notificationf'] = 'Afficher une alerte et les notifications pour les <strong>Confirmations des demandes d\'amis</strong>';
 
-$LNG['ttl_notificationx'] = 'Notifications des pages';
+$LNG['ttl_notificationm'] = 'Notifications des Mentionner';
+$LNG['sub_notificationm'] = 'Afficher une alerte et les notifications pour les <strong>Mentions</strong>';
+
+$LNG['ttl_notificationx'] = 'Notifications des Pages';
 $LNG['sub_notificationx'] = 'Afficher une alerte et les notifications pour les invitation à <strong>Aimer une Page</strong>';
 
-$LNG['ttl_notificationg'] = 'Notifications des groupes';
+$LNG['ttl_notificationg'] = 'Notifications des Groupes';
 $LNG['sub_notificationg'] = 'Afficher une alerte et les notifications pour les <strong>Invitations de Groupes</strong>';
 
 $LNG['ttl_notificationp'] = 'Notifications des Pokes';
@@ -418,6 +425,9 @@ $LNG['sub_email_like'] = 'Recevoir un email quand quelqu\'un aime vos posts';
 
 $LNG['ttl_email_new_friend'] = 'Emails de demande d\'ami';
 $LNG['sub_email_new_friend'] = 'Recevoir un email quand quelqu\'un vous envoie ou confirme une demande d\'ami';
+
+$LNG['ttl_email_mention'] = 'Emails des Mentions';
+$LNG['sub_email_mention'] = 'Recevoir des emails quand quelqu\'un vous mentionne';
 
 $LNG['ttl_email_page'] = 'Email d\'invitation de pages';
 $LNG['sub_email_page'] = 'Recevoir un email quand quelqu\'un vous invite à aimer une page';
@@ -597,6 +607,9 @@ $LNG['admin_sub_email_comment'] = 'Activer l\'envoi d\'un Email quand quelqu\'un
 $LNG['admin_ttl_email_like'] = 'Envoi d\'Email sur les "J\'aime"';
 $LNG['admin_sub_email_like'] = 'Active l\'envoi d\'Email quand quelqu\'un like un post (prioritaire sur le règlage des utilisateurs)';
 
+$LNG['admin_ttl_email_mention'] = 'Envoi d\'Email sur Mention';
+$LNG['admin_sub_email_mention'] = 'Active l\'envoi d\'Email quand quelqu\'un mentionne quelqu\'un d\'autre (prioritaire sur le règlage des utilisateurs)';
+
 $LNG['admin_ttl_email_new_friend'] = 'Envoi d\'un Email pour les demandes d\'ami';
 $LNG['admin_sub_email_new_friend'] = 'Activer l\'envoi d\'un Email quand quelqu\'un envoie une demande ou confirme une demande d\'ami (prioritaire sur le règlage des utilisateurs)';
 
@@ -608,9 +621,6 @@ $LNG['admin_sub_email_group'] = 'Activer l\'envoi d\'un Email quand quelqu\'un e
 
 $LNG['admin_ttl_ilimit'] = 'Images (Publications)';
 $LNG['admin_sub_ilimit'] = 'Nombre maximum d\'images autorisées par message';
-
-$LNG['admin_ttl_wholiked'] = 'Qui aime';
-$LNG['admin_sub_wholiked'] = 'Nombre maximum d\'images de profils à afficher près du nombre de "J\'aime".';
 
 $LNG['admin_ttl_sperpage'] = 'Utilisateurs';
 $LNG['admin_sub_sperpage'] = 'Nombre d\'utilisateurs à afficher par page (Profils des amis, Utilisateurs dans les groupes)';
@@ -713,14 +723,16 @@ $LNG['like'] = 'J\'aime';
 $LNG['dislike'] = 'Je n\'aime plus';
 $LNG['liked'] = 'Aimé';
 $LNG['liked_this'] = 'aime ceci';
-$LNG['view_all_likes'] = 'Voir tous les J\'aime';
-$LNG['people_who_like_this'] = 'Ceux qui aiment ceci';
+$LNG['view_who_liked'] = 'Voir qui a aimé';
+$LNG['view_who_shared'] = 'Voir qui a partagé';
 
 // MISC
 $LNG['sponsored'] = 'Sponsorisé';
 $LNG['censored'] = '<strong>censuré</strong>';
 $LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> aime votre <a href="%s" rel="loadpage">publication</a>';
 $LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a> aime votre <a href="%s" rel="loadpage">commentaire</a>';
+$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> vous a mentionné dans un <a href="%s" rel="loadpage">message</a>';
+$LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s</a> vous a mentionné dans un <a href="%s" rel="loadpage">commentaire</a>';
 $LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> vous a envoyé un Poke';
 $LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> a commenté votre <a href="%s" rel="loadpage">publication</a>';
 $LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> a partagé votre <a href="%s" rel="loadpage">publication</a>';
@@ -748,6 +760,7 @@ $LNG['tracking_code'] = 'Code de suivi';
 $LNG['friends_limit'] = 'Vous avez atteint la limite d\'amis';
 $LNG['user_friends_limit'] = 'Cet utilisateur a atteint la limite d\'amis';
 $LNG['last_online'] = 'Vu : %s';
+$LNG['show_in_tab'] = 'Afficher dans l\'onglet';
 
 // PAGE
 $LNG['create_page'] = 'Créer une page';
