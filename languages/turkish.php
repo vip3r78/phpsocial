@@ -78,7 +78,7 @@ $LNG['notif_saved'] = 'Bildirimler değişti';
 $LNG['notif_success_saved'] = 'Bildirimler başarılı bir şekilde güncellendi.';
 
 // MAIL CONTENT
-$LNG['welcome_mail'] = '%s e Hoşgeldiniz' ;
+$LNG['welcome_mail'] = '%s e Hoşgeldiniz';
 $LNG['user_created'] = '<strong>%s</strong> e katıldığınız için teşekkür ederiz.<br><br>Kullanıcı Adınız: <strong>%s</strong><br><br>Buradan giriş yapabilirsiniz: <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Şifre Kurtarma';
 $LNG['recover_content'] = 'Bir şifre kurtarma talep edildi ,eğer bu talebi siz gerçekleştirmediyseniz bu maili göz ardı ediniz. <br><br>Kullanıcı Adınız: <strong>%s</strong><br>Sıfırlama anahtarınız: <strong>%s</strong><br><br>Buradaki linki tıklayarak şifrenizi sıfırlayabilirsiniz : <a href="%s" target="_blank">%s</a>';
@@ -102,7 +102,7 @@ $LNG['group_invite'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong>
 $LNG['ttl_suspended_account_mail'] = 'Hesabınız askıya alınmıştır ';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Hesabınız askıya alınmıştır .Eğer bir hata olduğunu düşünüyorsanız ,lütfen bizim ile iletişime geçiniz.'.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Hesabınızı aktif ediniz';
-$LNG['confirm_email'] = $LNG['email_hello'].' <strong>%s</strong> katılımınız için teşekkür ederiz. Kayıt işleminizi <a href="%s" target="_blank"> bu linke tıklayarak tamamlayınız </a>.'.$LNG['email_copy'];
+$LNG['confirm_email'] = $LNG['email_hello'].'<strong>%s</strong> katılımınız için teşekkür ederiz. Kayıt işleminizi <a href="%s" target="_blank"> bu linke tıklayarak tamamlayınız </a>.'.$LNG['email_copy'];
 $LNG['ttl_mention_email'] = '%s senden bahsetti mesajda';
 $LNG['ttl_mention_c_email'] = '%s senden bahsetti yorumda';
 $LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> senden bahsetti <strong><a href="%s">mesajda.</a></strong>'.$LNG['email_unsub'];
@@ -110,7 +110,7 @@ $LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></stro
 
 // PHP MODULES
 $LNG['openssl_error'] = '<strong>OpenSSL</strong> eklentisinin sunucuda izin verilmiş olmalıdır.';
-$LNG['curl_error'] = ' <strong>cURL</strong> eklentisinin sunucuda izin verilmiş olması tavsiye edilir.';
+$LNG['curl_error'] = '<strong>cURL</strong> eklentisinin sunucuda izin verilmiş olması tavsiye edilir.';
 
 // ADMIN PANEL
 $LNG['general_link'] = 'Genel';
@@ -148,7 +148,7 @@ $LNG['visited'] = 'Ziyaret ettim:  <strong>%s</strong>';
 $LNG['played'] = 'Oynadım: <strong>%s</strong>';
 $LNG['watched'] = 'İzledim: <strong>%s</strong>';
 $LNG['listened'] = 'Dinledim: <strong>%s</strong>';
-$LNG['shared_title'] = ' <a href="%s" rel="loadpage"><strong>%s</strong></a> mesajı <a href="%s" rel="loadpage"><strong>paylaşıldı</strong></a>.';
+$LNG['shared_title'] = '<a href="%s" rel="loadpage"><strong>%s</strong></a> mesajı <a href="%s" rel="loadpage"><strong>paylaşıldı</strong></a>.';
 $LNG['group_title'] = 'grubunda <a href="%s" rel="loadpage"><strong>%s</strong></a>gönderildi.';
 $LNG['form_title'] = 'Durumunu güncelle';
 $LNG['comment_wrong'] = 'Bir şeyler yanlış gitti, lütfen sayfayı yenileyerek tekrar deneyin.';
@@ -207,7 +207,7 @@ $LNG['sidebar_pokes'] = 'Dürtmeler';
 $LNG['sidebar_mentions'] = 'Bahsedenler';
 $LNG['all_time'] = 'Tüm zamalar';
 $LNG['friends'] = 'Arkadaşlar';
-$LNG['mutual' ] = 'Ortak';
+$LNG['mutual'] = 'Ortak';
 $LNG['welcome'] = 'Hoşgeldin';
 $LNG['filter_age'] = 'Yaş';
 $LNG['all_ages'] = 'Tüm yaşlar';
@@ -582,6 +582,9 @@ $LNG['smtp_sub_host'] = 'SMTP Sağlayıcı';
 $LNG['smtp_port'] = 'SMTP Port';
 $LNG['smtp_sub_port'] = 'SMTP Port';
 
+$LNG['smtp_secure'] = 'SMTP Secure';
+$LNG['smtp_sub_secure'] = 'SMTP Secure uygunluğu';
+
 $LNG['smtp_auth'] = 'SMTP Authentication';
 $LNG['smtp_sub_auth'] = 'SMTP Authentication Uygun';
 
@@ -605,10 +608,10 @@ $LNG['admin_ttl_email_comment'] = 'Yorumda Email';
 $LNG['admin_sub_email_comment'] = 'Mesaja yorum geldiğinde email göndermeye müsaade et (kullanıcının ayarlarının üzerine yazar)';
 
 $LNG['admin_ttl_email_like'] = 'Beğenide Email';
-$LNG['admin_sub_email_like'] = ' Mesaj beğenildiğinde email göndermeye müsaade et (kullanıcının ayarlarının üzerine yazar)';
+$LNG['admin_sub_email_like'] = 'Mesaj beğenildiğinde email göndermeye müsaade et (kullanıcının ayarlarının üzerine yazar)';
 
-$LNG['admin_ttl_email_mention' ] = 'Bahsetme e-mail';
-$LNG['admin_sub_email_mention' ] = 'Birisi başka birisinden bahsettiğinde email gönderimi yapılsın (kullanıcının ayarlarının üzerine yazar)';
+$LNG['admin_ttl_email_mention'] = 'Bahsetme e-mail';
+$LNG['admin_sub_email_mention'] = 'Birisi başka birisinden bahsettiğinde email gönderimi yapılsın (kullanıcının ayarlarının üzerine yazar)';
 
 $LNG['admin_ttl_email_new_friend'] = 'Arkadaşlıklarda Email';
 $LNG['admin_sub_email_new_friend'] = 'Arkadaşlık daveti ve onayı geldiğinde email gönderimine müsaade et(kullanıcının ayarlarının üzerine yazar)';
@@ -867,8 +870,8 @@ $LNG['profile_about'] = 'Hakkında';
 $LNG['profile_birthdate'] = 'Birthdate';
 $LNG['lives_in'] = 'Yaşıyor';
 $LNG['born_on'] = 'Doğdu';
-$LNG['studied_at'] = ' Okuduğu yer';
-$LNG['works_at'] = ' Çalıştığı yer';
+$LNG['studied_at'] = 'Okuduğu yer';
+$LNG['works_at'] = 'Çalıştığı yer';
 $LNG['profile_view_site'] = 'Websitesini Görüntüle';
 $LNG['profile_view_profile'] = 'Profili Görüntüle';
 $LNG['profile_bio']	= 'Biografi';

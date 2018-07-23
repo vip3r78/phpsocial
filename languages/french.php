@@ -207,7 +207,7 @@ $LNG['sidebar_pokes'] = 'Pokes';
 $LNG['sidebar_mentions'] = 'Mentions';
 $LNG['all_time'] = 'Toutes dates';
 $LNG['friends'] = 'Amis ';
-$LNG['mutual' ] = 'Mutuel';
+$LNG['mutual'] = 'Mutuel';
 $LNG['welcome'] = 'Bienvenue';
 $LNG['filter_age'] = 'Âge';
 $LNG['all_ages'] = 'Tous les âges';
@@ -577,10 +577,13 @@ $LNG['smtp_emails'] = 'SMTP Mails';
 $LNG['smtp_sub_emails'] = 'Activer l\'envoi des mail via SMTP';
 
 $LNG['smtp_host'] = 'Serveur SMTP';
-$LNG['smtp_sub_host'] = 'The SMTP Host';
+$LNG['smtp_sub_host'] = 'Le serveur SMTP';
 
 $LNG['smtp_port'] = 'Port SMTP';
 $LNG['smtp_sub_port'] = 'Port SMTP';
+
+$LNG['smtp_secure'] = 'Secure SMTP';
+$LNG['smtp_sub_secure'] = 'Activer Secure SMTP';
 
 $LNG['smtp_auth'] = 'Authentication SMTP';
 $LNG['smtp_sub_auth'] = 'Activer l\'authentification SMTP';

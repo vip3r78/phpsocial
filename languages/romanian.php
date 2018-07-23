@@ -582,6 +582,9 @@ $LNG['smtp_sub_host'] = 'Hostul SMTP';
 $LNG['smtp_port'] = 'Port SMTP';
 $LNG['smtp_sub_port'] = 'Portul SMTP';
 
+$LNG['smtp_secure'] = 'SMTP Secure';
+$LNG['smtp_sub_secure'] = 'Activează SMTP Secure';
+
 $LNG['smtp_auth'] = 'Autentificare SMTP';
 $LNG['smtp_sub_auth'] = 'Activează Autentificare SMTP';
 

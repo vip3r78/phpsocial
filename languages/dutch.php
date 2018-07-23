@@ -57,8 +57,8 @@ $LNG['password_not_changed'] = 'Het wachtwoord is niet gewijzigd.';
 $LNG['image_saved'] = 'Afbeelding opgeslagen';
 $LNG['error'] = 'Fout';
 $LNG['no_file'] = 'U hebt geen bestanden geselecteerd om te uploaden of de geselecteerde bestanden zijn leeg.';
-$LNG['file_exceeded'] = 'De geselecteerde bestandsgrootte mag <strong> %s </ strong> MB.';
-$LNG['file_format'] = 'Het geselecteerde bestandsformaat wordt niet ondersteund. Upload <strong> %s </ strong> bestandsindeling ';
+$LNG['file_exceeded'] = 'De geselecteerde bestandsgrootte mag <strong> %s</strong> MB.';
+$LNG['file_format'] = 'Het geselecteerde bestandsformaat wordt niet ondersteund. Upload <strong> %s</strong> bestandsindeling';
 $LNG['image_removed'] = 'Afbeelding verwijderd';
 $LNG['bio_description'] = 'De biobeschrijving moet %s tekens of minder zijn.';
 $LNG['valid_email'] = 'Voer een geldig e-mailadres in.';
@@ -71,46 +71,46 @@ $LNG['username_not_found'] = 'We konden de gekozen gebruikersnaam niet vinden.';
 $LNG['userkey_not_found'] = 'De gebruikersnaam of de reset-sleutel zijn verkeerd, zorg ervoor dat je de juiste inloggegevens hebt ingevoerd.';
 $LNG['password_reseted'] = 'U hebt uw wachtwoord teruggezet, u kunt nu inloggen met de nieuwe inloggegevens.';
 $LNG['email_sent'] = 'E-mail verzonden';
-$LNG['email_reset'] = 'Er is een e-mail met instructies voor het opnieuw instellen van het wachtwoord verzonden. Sta ons toe om 24 uur de tijd te nemen om het bericht af te leveren, controleer ook uw Spam-box als u het niet kunt vinden in uw Inbox. ';
-$LNG['user_has_been_deleted'] = 'Gebruiker <strong> %s </ strong> is verwijderd.';
+$LNG['email_reset'] = 'Er is een e-mail met instructies voor het opnieuw instellen van het wachtwoord verzonden. Sta ons toe om 24 uur de tijd te nemen om het bericht af te leveren, controleer ook uw Spam-box als u het niet kunt vinden in uw Inbox.';
+$LNG['user_has_been_deleted'] = 'Gebruiker <strong> %s</strong> is verwijderd.';
 $LNG['theme_changed'] = 'Thema veranderd';
 $LNG['notif_saved'] = 'Meldingen gewijzigd';
 $LNG['notif_success_saved'] = 'Meldingen zijn succesvol bijgewerkt.';
 
 // MAIL CONTENT
 $LNG['welcome_mail'] = 'Welkom bij %s';
-$LNG['user_created'] = 'Bedankt voor uw deelname aan <strong> %s </ strong>. <br> <br> Uw gebruikersnaam: <strong> %s </ strong> <br> <br> U kunt inloggen op: <a href="%s" target="_blank">%s </a> ';
+$LNG['user_created'] = 'Bedankt voor uw deelname aan <strong>%s</strong>.<br><br>Uw gebruikersnaam: <strong>%s</strong><br><br>U kunt inloggen op: <a href="%s" target="_blank">%s</a>';
 $LNG['recover_mail'] = 'Wachtwoordherstel';
-$LNG['recover_content'] = 'Een wachtwoordherstel is aangevraagd, negeer deze e-mail als je deze actie niet hebt uitgevoerd. <br> <br> Uw gebruikersnaam: <strong>%s </ strong> <br> Uw resetcode: <strong>%s </ strong> <br> <br> U kunt uw wachtwoord opnieuw instellen via de volgende link : <a href="%s" target="_blank">%s </a> ';
-$LNG['email_hello'] = 'Hallo <strong> %s </ strong>, <br> <br>';
-$LNG['email_unsub'] = '<br> <br> <span style = "color: #aaa;"> Dit bericht is automatisch verzonden, als je dit soort e-mails van <strong> niet wilt ontvangen %s </ strong> in de toekomst, <a href="%s"> Abonnement opzeggen </a>. </ span> ';
-$LNG['email_copy'] = '<br> <br> <span style = "color: #aaa;"> Auteursrecht & exemplaar; '.date ( 'Y').' <a href="%s"> %s </a>. Alle rechten voorbehouden.';
+$LNG['recover_content'] = 'Een wachtwoordherstel is aangevraagd, negeer deze e-mail als je deze actie niet hebt uitgevoerd. <br> <br> Uw gebruikersnaam: <strong>%s</strong> <br> Uw resetcode: <strong>%s</strong> <br> <br> U kunt uw wachtwoord opnieuw instellen via de volgende link: <a href="%s" target="_blank">%s</a>';
+$LNG['email_hello'] = 'Hallo <strong> %s</strong>, <br> <br>';
+$LNG['email_unsub'] = '<br> <br> <span style="color: #aaa;">Dit bericht is automatisch verzonden, als je dit soort e-mails van <strong>niet wilt ontvangen %s</strong> in de toekomst, <a href="%s">Abonnement opzeggen</a>.</span>';
+$LNG['email_copy'] = '<br> <br> <span style="color: #aaa;">Auteursrecht & exemplaar; '.date('Y').' <a href="%s">%s</a>. Alle rechten voorbehouden.';
 $LNG['ttl_comment_email'] = '%s heeft gereageerd op uw bericht';
-$LNG['comment_email'] = $LNG['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> heeft gereageerd op je <strong> <a href = "%s"> bericht </a> </ strong>'.$LNG['email_unsub'];
+$LNG['comment_email'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong> heeft gereageerd op je <strong><a href="%s">bericht</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_like_email'] = '%s vond je bericht leuk';
-$LNG['like_email'] = $LNG['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> vond je <strong> <a href = "%s "> bericht </a> </ strong>'.$LNG['email_unsub'];
+$LNG['like_email'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong> vond je <strong><a href="%s">bericht</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_like_c_email'] = '%s vond je reactie leuk';
-$LNG['like_c_email'] = $LNG['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> vond je <strong> <a href = "%s "> opmerking </a> </ strong>'.$LNG['email_unsub'];
+$LNG['like_c_email'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong> vond je <strong><a href="%s">opmerking</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_new_friend_email'] = '%s heeft je een vriendenverzoek gestuurd';
-$LNG['new_friend_email'] = $LNG['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> wil vrienden zijn op%s.'. $LNG[ 'email_unsub'];
+$LNG['new_friend_email'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong> wil vrienden zijn op%s.'.$LNG['email_unsub'];
 $LNG['ttl_friendship_confirmed_email'] = '%s accepteerde je vriendschapsverzoek';
-$LNG['friendship_confirmed_email'] = $LNG['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> heeft je vriendschap op%s geaccepteerd.'.$LNG['email_unsub'];
+$LNG['friendship_confirmed_email'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong> heeft je vriendschap op%s geaccepteerd.'.$LNG['email_unsub'];
 $LNG['ttl_page_invite'] = '%s heeft je uitgenodigd om van een pagina te houden';
-$LNG['page_invite'] = $LNG['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> heeft je uitgenodigd voor <strong> <a href = "%s">%s </a> </ strong> pagina. '.$LNG['email_unsub'];
+$LNG['page_invite'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong> heeft je uitgenodigd voor <strong><a href="%s">%s</a></strong> pagina.'.$LNG['email_unsub'];
 $LNG['ttl_group_invite'] = '%s heeft je uitgenodigd om lid te worden van een groep';
-$LNG['group_invite'] = $LNG['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> heeft je uitgenodigd om lid te worden van <strong> <a href = "%s">%s </a> groep. </ strong> '.$LNG['email_unsub'];
+$LNG['group_invite'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong> heeft je uitgenodigd om lid te worden van <strong><a href="%s">%s</a> groep.</strong> '.$LNG['email_unsub'];
 $LNG['ttl_suspended_account_mail'] = 'Uw account is opgeschort';
 $LNG['suspended_account_mail'] = $LNG['email_hello']. 'Uw account is opgeschort. Als u denkt dat dit een fout was, neem dan contact met ons op. '.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Activeer uw account';
-$LNG['confirm_email'] = $LNG ['email_hello']. 'Bedankt voor uw deelname aan <strong>%s </ strong>. Voltooi uw registratie door <a href="%s" target="_blank"> hier te klikken </a>. '. $LNG[' email_copy '];
+$LNG['confirm_email'] = $LNG 'email_hello'].'Bedankt voor uw deelname aan <strong>%s</strong>. Voltooi uw registratie door <a href="%s" target="_blank">hier te klikken</a>.'.$LNG['email_copy'];
 $LNG['ttl_mention_email'] = '%s heeft je in een bericht genoemd';
 $LNG['ttl_mention_c_email'] = '%s heeft je in een reactie genoemd';
-$LNG['mention_email'] = $LNG ['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> heeft je genoemd in een <strong> <a href = "%s"> bericht </a> </ strong>'.$LNG['email_unsub'];
-$LNG['mention_c_email'] = $LNG ['email_hello']. '<Strong> <a href="%s">%s </a> </ strong> heeft je genoemd in een <strong> <a href = "%s"> opmerking </a> </ strong>'.$LNG['email_unsub'];
+$LNG['mention_email'] = $LNG ['email_hello']. '<strong><a href="%s">%s</a></strong> heeft je genoemd in een <strong><a href="%s">bericht</a></strong>'.$LNG['email_unsub'];
+$LNG['mention_c_email'] = $LNG ['email_hello']. '<strong><a href="%s">%s</a></strong> heeft je genoemd in een <strong><a href="%s">opmerking</a></strong>'.$LNG['email_unsub'];
 
 // PHP MODULES
-$LNG['openssl_error'] = 'U moet de <strong> OpenSSL </ strong> extensie op de server inschakelen';
-$LNG['curl_error'] = 'Aanbevolen wordt om de <strong> cURL </ strong> extensie aan te zetten op de server';
+$LNG['openssl_error'] = 'U moet de <strong> OpenSSL</strong> extensie op de server inschakelen';
+$LNG['curl_error'] = 'Aanbevolen wordt om de <strong> cURL</strong> extensie aan te zetten op de server';
 
 // ADMIN PANEL
 $LNG['general_link'] = 'Algemeen';
@@ -120,9 +120,9 @@ $LNG['registration'] = 'Registratie';
 $LNG['limits'] = 'Limiten';
 $LNG['emails'] = 'Emails';
 
-$LNG['theme_install'] = 'Om een nieuw thema te installeren, upload het in de <strong> themes </ strong> map';
-$LNG['plugin_install'] = 'Om een nieuwe plug-in te installeren, upload hem in de map <strong> plug-ins </ strong>';
-$LNG['language_install'] = 'Om een nieuwe taal te installeren, upload deze in de <strong> talen </ strong> map';
+$LNG['theme_install'] = 'Om een nieuw thema te installeren, upload het in de <strong> themes</strong> map';
+$LNG['plugin_install'] = 'Om een nieuwe plug-in te installeren, upload hem in de map <strong> plug-ins</strong>';
+$LNG['language_install'] = 'Om een nieuwe taal te installeren, upload deze in de <strong> talen</strong> map';
 $LNG['author_title'] = 'Bezoek de startpagina van de auteur';
 $LNG['version'] = 'Versie';
 $LNG['active'] = 'Actief';
@@ -143,16 +143,16 @@ $LNG['delete_q_message'] = 'Weet je zeker dat je dit bericht wilt verwijderen?';
 $LNG['delete_q_chat'] = 'Weet je zeker dat je dit chatbericht wilt verwijderen?';
 $LNG['report_this_comment'] = 'Rapporteer deze opmerking';
 $LNG['view_more'] = 'Bekijk meer';
-$LNG['food'] = 'Ik heb gegeten bij: <strong>%s </ strong>';
-$LNG['visited'] = 'Ik bezocht: <strong>%s </ strong>';
-$LNG['played'] = 'Ik speelde: <strong>%s </ strong>';
-$LNG['watched'] = 'Ik keek: <strong>%s </ strong>';
-$LNG['listened'] = 'Ik heb geluisterd naar: <strong>%s </ strong>';
-$LNG['shared_title'] = 'gedeelde <a href="%s" rel="loadpage"> <strong>%s </ strong> </a> \'s <a href = "%s" rel = "loadpage"> <strong> bericht </ strong> </a>. ';
-$LNG['group_title'] = 'gepost in <a href="%s" rel="loadpage"> <strong>%s </ strong> </a> groep.';
+$LNG['food'] = 'Ik heb gegeten bij: <strong>%s</strong>';
+$LNG['visited'] = 'Ik bezocht: <strong>%s</strong>';
+$LNG['played'] = 'Ik speelde: <strong>%s</strong>';
+$LNG['watched'] = 'Ik keek: <strong>%s</strong>';
+$LNG['listened'] = 'Ik heb geluisterd naar: <strong>%s</strong>';
+$LNG['shared_title'] = 'gedeelde <a href="%s" rel="loadpage"><strong>%s</strong></a>\'s <a href="%s" rel="loadpage"><strong>bericht</strong></a>.';
+$LNG['group_title'] = 'gepost in <a href="%s" rel="loadpage"><strong>%s</strong></a> groep.';
 $LNG['form_title'] = 'Update uw status';
 $LNG['comment_wrong'] = 'Er is iets misgegaan, vernieuw de pagina en probeer het opnieuw.';
-$LNG['comment_too_long'] = 'Sorry, de maximum toegestane karakters per commentaar is <strong>%s </ strong>.';
+$LNG['comment_too_long'] = 'Sorry, de maximum toegestane karakters per commentaar is <strong>%s</strong>.';
 $LNG['comment_error'] = 'Sorry, we konden de reactie niet plaatsen, vernieuw de pagina en probeer het opnieuw.';
 $LNG['message_private'] = 'Sorry, dit bericht is prive alleen de auteur van het bericht kan het zien.';
 $LNG['message_private_ttl'] = 'Privebericht';
@@ -165,7 +165,7 @@ $LNG['share'] = 'Delen';
 $LNG['camera'] = 'Camera';
 $LNG['capture'] = 'Capture';
 $LNG['send'] = 'Verzenden';
-$LNG['shared_success'] = 'Het bericht is succesvol gedeeld op uw <a href="%s" rel="loadpage"> <strong> tijdlijn </ strong> </a>.';
+$LNG['shared_success'] = 'Het bericht is succesvol gedeeld op uw <a href="%s" rel="loadpage"><strong>tijdlijn</strong></a>.';
 $LNG['no_shared'] = 'Sorry maar dit bericht kan niet gedeeld worden.';
 $LNG['share_desc'] = 'Weet je zeker dat je dit bericht op je tijdlijn wilt delen?';
 $LNG['cancel'] = 'Annuleer';
@@ -177,8 +177,8 @@ $LNG['1_not_exists'] = 'Het gerapporteerde bericht bestaat niet.';
 $LNG['0_not_exists'] = 'De gerapporteerde reactie bestaat niet.';
 $LNG['1_already_reported'] = 'Dit bericht is al gerapporteerd en zal binnen de kortste tijd worden beoordeeld, bedankt.';
 $LNG['0_already_reported'] = 'Deze opmerking is al gerapporteerd en zal binnen de kortste tijd worden beoordeeld, bedankt.';
-$LNG['1_is_safe'] = 'Dit bericht is gemarkeerd als <strong> veilig </ strong> door een beheerder, bedankt voor uw feedback.';
-$LNG['0_is_safe'] = 'Deze opmerking is gemarkeerd als <strong> veilig </ strong> door een beheerder, bedankt voor uw feedback.';
+$LNG['1_is_safe'] = 'Dit bericht is gemarkeerd als <strong> veilig</strong> door een beheerder, bedankt voor uw feedback.';
+$LNG['0_is_safe'] = 'Deze opmerking is gemarkeerd als <strong> veilig</strong> door een beheerder, bedankt voor uw feedback.';
 $LNG['1_report_added'] = 'Het bericht is gerapporteerd, bedankt voor uw feedback.';
 $LNG['0_report_added'] = 'De opmerking is gerapporteerd, bedankt voor uw feedback.';
 $LNG['1_report_error'] = 'Sorry maar er is iets misgegaan tijdens het melden van dit bericht. Vernieuw de pagina en probeer het opnieuw.';
@@ -207,7 +207,7 @@ $LNG['sidebar_pokes'] = 'Pokes';
 $LNG['sidebar_mentions'] = 'Mentions';
 $LNG['all_time'] = 'Altijd';
 $LNG['friends'] = 'Vrienden';
-$LNG['mutual' ] = 'Onderlingen';
+$LNG['mutual'] = 'Onderlingen';
 $LNG['welcome'] = 'Welkom';
 $LNG['filter_age'] = 'Leeftijd';
 $LNG['all_ages'] = 'Alle leeftijden';
@@ -230,9 +230,9 @@ $LNG['sidebar_tag'] = 'Hashtags';
 
 // MESSAGES / CHAT
 $LNG['lonely_here'] = 'Het is hier eenzaam, hoe zit het met het maken van vrienden?';
-$LNG['chat_too_long'] = 'Sorry, maar de maximaal toegestane tekens per chatbericht zijn <strong>%s </ strong>.';
-$LNG['blocked_by'] = 'Het bericht kon niet worden verzonden. <strong>%s </ strong> heeft je geblokkeerd. ';
-$LNG['blocked_user'] = 'Het bericht kon niet worden verzonden. U hebt <strong>%s </ strong> geblokkeerd. ';
+$LNG['chat_too_long'] = 'Sorry, maar de maximaal toegestane tekens per chatbericht zijn <strong>%s</strong>.';
+$LNG['blocked_by'] = 'Het bericht kon niet worden verzonden. <strong>%s</strong> heeft je geblokkeerd.';
+$LNG['blocked_user'] = 'Het bericht kon niet worden verzonden. U hebt <strong>%s</strong> geblokkeerd.';
 $LNG['chat_self'] = 'Sorry maar we kunnen geen chatberichten aan jezelf leveren.';
 $LNG['chat_no_user'] = 'U moet een gebruiker selecteren om mee te chatten.';
 $LNG['view_more_conversations'] = 'Bekijk meer conversaties';
@@ -253,14 +253,14 @@ $LNG['label_video'] = 'Deel een film of een link van YouTube of Vimeo';
 $LNG['label_music'] = 'Deel een liedje of een link van SoundCloud';
 $LNG['label_image'] = 'Upload afbeeldingen';
 $LNG['message_form'] = 'Waar denk je aan?';
-$LNG['file_too_big'] = 'De geselecteerde bestandsgrootte (%s) is te groot, de maximaal toegestane bestandsgrootte is <strong>%s </ strong>.';
-$LNG['format_not_exist'] = 'Het geselecteerde bestandsformaat (%s) is ongeldig, upload alleen het <strong>%s </ strong> beeldformaat.';
+$LNG['file_too_big'] = 'De geselecteerde bestandsgrootte (%s) is te groot, de maximaal toegestane bestandsgrootte is <strong>%s</strong>.';
+$LNG['format_not_exist'] = 'Het geselecteerde bestandsformaat (%s) is ongeldig, upload alleen het <strong>%s</strong> beeldformaat.';
 $LNG['privacy_no_exist'] = 'De geselecteerde privacy bestaat niet, vernieuw de pagina en probeer het opnieuw.';
 $LNG['event_not_exist'] = 'De geselecteerde gebeurtenis bestaat niet, vernieuw de pagina en probeer het opnieuw.';
 $LNG['change_privacy'] = 'Wie zou het bericht moeten zien';
 
-$LNG['message_too_long'] = 'Sorry, maar de maximaal toegestane tekens per bericht zijn <strong>%s </ strong>.';
-$LNG['too_many_images'] = 'Het maximale aantal afbeeldingen dat mag worden geupload per bericht is <strong>%s </ strong>, je hebt geprobeerd om <strong>%s </ strong> afbeeldingen te uploaden.';
+$LNG['message_too_long'] = 'Sorry, maar de maximaal toegestane tekens per bericht zijn <strong>%s</strong>.';
+$LNG['too_many_images'] = 'Het maximale aantal afbeeldingen dat mag worden geupload per bericht is <strong>%s</strong>, je hebt geprobeerd om <strong>%s</strong> afbeeldingen te uploaden.';
 
 // USER PANEL
 $LNG['user_menu_general'] = 'Algemeen';
@@ -385,31 +385,31 @@ $LNG['default'] = 'Standaard';
 $LNG['make_default'] = 'Maak standaard';
 
 $LNG['ttl_notificationl'] = 'Houdt van meldingen';
-$LNG['sub_notificationl'] = 'Toon waarschuwing en meldingen voor <strong> vind leuk </ strong>';
+$LNG['sub_notificationl'] = 'Toon waarschuwing en meldingen voor <strong> vind leuk</strong>';
 
 $LNG['ttl_notificationc'] = 'Opmerkingen meldingen';
-$LNG['sub_notificationc'] = 'Toon waarschuwing en meldingen voor <strong> Reacties </ strong>';
+$LNG['sub_notificationc'] = 'Toon waarschuwing en meldingen voor <strong> Reacties</strong>';
 
 $LNG['ttl_notifications'] = 'Berichten Meldingen';
-$LNG['sub_notifications'] = 'Toon waarschuwing en meldingen voor <strong> Gedeelde berichten </ strong>';
+$LNG['sub_notifications'] = 'Toon waarschuwing en meldingen voor <strong> Gedeelde berichten</strong>';
 
 $LNG['ttl_notificationd'] = 'Chatmeldingen';
-$LNG['sub_notificationd'] = 'Toon waarschuwing en meldingen voor <strong> Chats </ strong>';
+$LNG['sub_notificationd'] = 'Toon waarschuwing en meldingen voor <strong> Chats</strong>';
 
 $LNG['ttl_notificationf'] = 'Vriendenmeldingen';
-$LNG['sub_notificationf'] = 'Toon waarschuwing en meldingen voor <strong> bevestigde vriendschap </ strong>';
+$LNG['sub_notificationf'] = 'Toon waarschuwing en meldingen voor <strong> bevestigde vriendschap</strong>';
 
 $LNG['ttl_notificationm'] = 'Melding meldingen';
-$LNG['sub_notificationm'] = 'Toon waarschuwing en meldingen voor <strong> Mentions </ strong>';
+$LNG['sub_notificationm'] = 'Toon waarschuwing en meldingen voor <strong> Mentions</strong>';
 
 $LNG['ttl_notificationx'] = 'Pages-meldingen';
-$LNG['sub_notificationx'] = 'Toon waarschuwing en meldingen voor <strong> Like a Page </ strong> uitnodigingen';
+$LNG['sub_notificationx'] = 'Toon waarschuwing en meldingen voor <strong> Like a Page</strong> uitnodigingen';
 
 $LNG['ttl_notificationg'] = 'Meldingen voor groepen';
-$LNG['sub_notificationg'] = 'Toon waarschuwing en meldingen voor <strong> Uitnodigingen voor groepen </ strong>';
+$LNG['sub_notificationg'] = 'Toon waarschuwing en meldingen voor <strong> Uitnodigingen voor groepen</strong>';
 
 $LNG['ttl_notificationp'] = 'Pokes Notifications';
-$LNG['sub_notificationp'] = 'Toon waarschuwing en meldingen voor <strong> Pokes </ strong>';
+$LNG['sub_notificationp'] = 'Toon waarschuwing en meldingen voor <strong> Pokes</strong>';
 
 $LNG['ttl_sound_nn'] = 'Meldingen Geluid';
 $LNG['sub_sound_nn'] = 'Speel een geluid wanneer een nieuwe melding wordt ontvangen';
@@ -582,6 +582,9 @@ $LNG['smtp_sub_host'] = 'De SMTP-host';
 $LNG['smtp_port'] = 'SMTP Port';
 $LNG['smtp_sub_port'] = 'De SMTP-poort';
 
+$LNG['smtp_secure'] = 'SMTP Secure';
+$LNG['smtp_sub_secure'] = 'De SMTP-secure';
+
 $LNG['smtp_auth'] = 'SMTP Authenticatie';
 $LNG['smtp_sub_auth'] = 'Schakel SMTP-authenticatie in';
 
@@ -702,8 +705,8 @@ $LNG['deleted_reports'] = 'Verwijderde rapporten';
 $LNG['admin_panel'] = 'Admin Panel';
 $LNG['at_a_glance'] = 'In één oogopslag';
 $LNG['site_info'] = 'Site-info';
-$LNG['site_version'] = '<a href="%s" target="_blank">%s </a>%s';
-$LNG['site_loaded'] = 'Thema <a href="%s" rel="loadpage">%s </a> met <a href="%s" rel="loadpage">%s plug-ins </ a> ingeschakeld ';
+$LNG['site_version'] = '<a href="%s" target="_blank">%s</a>%s';
+$LNG['site_loaded'] = 'Thema <a href="%s" rel="loadpage">%s</a> met <a href="%s" rel="loadpage">%s plug-ins</ a> ingeschakeld';
 $LNG['online_users'] = 'Online gebruikers';
 $LNG['users'] = 'Gebruikers';
 $LNG['moderators'] = 'Moderators';
@@ -728,25 +731,25 @@ $LNG['view_who_shared'] = 'Bekijk wie gedeeld';
 
 // MISC
 $LNG['sponsored'] = 'Gesponsord';
-$LNG['censored'] = '<strong> gecensureerd </ strong>';
-$LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s </a> vond je <a href="%s" rel="loadpage"> bericht </a> ';
-$LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s </a> vond je <a href="%s" rel="loadpage"> reactie </a> leuk ';
-$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s </a> heeft je genoemd in een <a href="%s" rel="loadpage"> bericht </ a> ';
-$LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s </a> heeft je genoemd in een <a href="%s" rel="loadpage"> reactie </ a> ';
-$LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s </a> poke you';
-$LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s </a> heeft gereageerd op je <a href="%s" rel="loadpage"> bericht </ a > ';
-$LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s </a> heeft uw <a href="%s" rel="loadpage"> bericht </a> gedeeld ';
-$LNG['new_page_notification'] = '<a href="%s" rel="loadpage">%s </a> heeft je uitgenodigd voor <a href="%s" rel="loadpage">%s </a> pagina ';
-$LNG['new_group_notification'] = '<a href="%s" rel="loadpage">%s </a> heeft je uitgenodigd om deel te nemen aan <a href="%s" rel="loadpage">%s </a> groep ';
-$LNG['new_friend_notification'] = '<a href="%s" rel="loadpage">%s </a> heeft je vriendschapsverzoek geaccepteerd';
-$LNG['new_chat_notification'] = '<a href="%s" rel="loadpage">%s </a> heeft je een <span class = "desktop"> <a onclick="%s"> chat gestuurd bericht </a> </ span> <span class = "mobiel"> <a href="%s" rel="loadpage"> chatbericht </a> </ span> ';
-$LNG['new_birthday_notification'] = '<a href="%s" rel="loadpage">%s </a> \'s verjaardag ';
+$LNG['censored'] = '<strong> gecensureerd</strong>';
+$LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> vond je <a href="%s" rel="loadpage">bericht</a>';
+$LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a> vond je <a href="%s" rel="loadpage">reactie</a> leuk';
+$LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> heeft je genoemd in een <a href="%s" rel="loadpage">bericht</a>';
+$LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s</a> heeft je genoemd in een <a href="%s" rel="loadpage">reactie</a>';
+$LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> poke you';
+$LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> heeft gereageerd op je <a href="%s" rel="loadpage">bericht</a>';
+$LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> heeft uw <a href="%s" rel="loadpage">bericht</a> gedeeld';
+$LNG['new_page_notification'] = '<a href="%s" rel="loadpage">%s</a> heeft je uitgenodigd voor <a href="%s" rel="loadpage">%s</a> pagina';
+$LNG['new_group_notification'] = '<a href="%s" rel="loadpage">%s</a> heeft je uitgenodigd om deel te nemen aan <a href="%s" rel="loadpage">%s</a> groep';
+$LNG['new_friend_notification'] = '<a href="%s" rel="loadpage">%s</a> heeft je vriendschapsverzoek geaccepteerd';
+$LNG['new_chat_notification'] = '<a href="%s" rel="loadpage">%s</a> heeft je een <span class="desktop"><a onclick="%s">chat gestuurd bericht</a></span><span class="mobile"><a href="%s" rel="loadpage">chatbericht</a></span>';
+$LNG['new_birthday_notification'] = '<a href="%s" rel="loadpage">%s</a>\'s verjaardag';
 $LNG['years_old'] = '%s jaar oud';
-$LNG['x_and_x_others'] = '<a href="%s" rel="loadpage">%s </a> en <a href="%s" rel="loadpage">%s meer </ a > ';
-$LNG['new_like_fa'] = '<a href="%s" rel="loadpage">%s </a> vond een <a href="%s" rel="loadpage"> bericht </a> ';
-$LNG['new_like_c_fa'] = '<a href="%s" rel="loadpage">%s </a> vond een <a href="%s" rel="loadpage"> reactie </a> leuk ';
-$LNG['new_comment_fa'] = '<a href="%s" rel="loadpage">%s </a> heeft gereageerd op een <a href="%s" rel="loadpage"> bericht </ a > ';
-$LNG['new_message_fa'] = '<a href="%s" rel="loadpage">%s </a> plaatste een nieuw <a href="%s" rel="loadpage"> bericht </ a > ';
+$LNG['x_and_x_others'] = '<a href="%s" rel="loadpage">%s</a> en <a href="%s" rel="loadpage">%s meer</a>';
+$LNG['new_like_fa'] = '<a href="%s" rel="loadpage">%s</a> vond een <a href="%s" rel="loadpage">bericht</a>';
+$LNG['new_like_c_fa'] = '<a href="%s" rel="loadpage">%s</a> vond een <a href="%s" rel="loadpage">reactie</a> leuk';
+$LNG['new_comment_fa'] = '<a href="%s" rel="loadpage">%s</a> heeft gereageerd op een <a href="%s" rel="loadpage">bericht</a>';
+$LNG['new_message_fa'] = '<a href="%s" rel="loadpage">%s</a> plaatste een nieuw <a href="%s" rel="loadpage">bericht</a>';
 $LNG['change_password'] = 'Wachtwoord wijzigen';
 $LNG['enter_new_password'] = 'Voer je nieuwe wachtwoord in';
 $LNG['enter_reset_key'] = 'Voer de reset-toets in';
@@ -787,7 +790,7 @@ $LNG['page_title_less'] = 'Paginatitel moet minder dan %s tekens bevatten';
 $LNG['page_desc_less'] = 'Paginabeschrijving moet minder dan %s tekens bevatten';
 $LNG['invalid_phone'] = 'Telefoonnummer kan alleen cijfers bevatten, plus (+) en minteken (-).';
 $LNG['page_delete_desc'] = 'Als een pagina wordt verwijderd, worden ook de berichten en de inhoud ervan verwijderd.';
-$LNG['page_deleted'] = 'De pagina <strong> %s </ strong> is verwijderd';
+$LNG['page_deleted'] = 'De pagina <strong> %s</strong> is verwijderd';
 $LNG['page_maximum'] = 'U hebt het maximale aantal toegestane pagina\'s (%s) overschreden.';
 $LNG['group_maximum'] = 'U hebt het maximale aantal toegestane groepen (%s) overschreden.';
 
@@ -839,7 +842,7 @@ $LNG['group_name_less'] = 'Groepsnaam moet minder dan %s karakters zijn';
 $LNG['group_title_less'] = 'Groepstitel moet minder dan %s karakters zijn';
 $LNG['group_desc_less'] = 'Groepsbeschrijving moet minder dan %s karakters zijn';
 $LNG['group_delete_desc'] = 'Als een groep wordt verwijderd, worden ook de bijbehorende berichten en inhoud verwijderd.';
-$LNG['group_deleted'] = 'De groep <strong> %s </ strong> is verwijderd';
+$LNG['group_deleted'] = 'De groep <strong> %s</strong> is verwijderd';
 
 $LNG['invite_friends'] = 'Vrienden uitnodigen';
 
@@ -883,7 +886,7 @@ $LNG['no_notifications'] = 'Geen meldingen';
 $LNG['search_title'] = 'Zoekresultaten';
 $LNG['view_all_results'] = 'Bekijk alle resultaten';
 $LNG['close_results'] = 'Resultaten sluiten';
-$LNG['no_results'] = 'Geen resultaten beschikbaar. Probeer een andere zoekopdracht. ';
+$LNG['no_results'] = 'Geen resultaten beschikbaar. Probeer een andere zoekopdracht.';
 $LNG['no_results_ttl'] = 'Zoekresultaten';
 $LNG['search_for_users'] = 'Zoeken naar gebruikers';
 $LNG['search_in_friends'] = 'Zoeken in vrienden';
@@ -893,7 +896,7 @@ $LNG['followed_by'] = 'Gevolgd door';
 $LNG['people'] = 'people';
 $LNG['no_info_avail'] = 'Geen informatie beschikbaar';
 $LNG['account_suspended'] = 'Dit account is momenteel geblokkeerd.';
-$LNG['account_not_activated'] = 'Dit account is niet geactiveerd. <a href="%s"> Klik hier </a> om het activeringsbericht opnieuw te verzenden. ';
+$LNG['account_not_activated'] = 'Dit account is niet geactiveerd. <a href="%s">Klik hier</a> om het activeringsbericht opnieuw te verzenden.';
 $LNG['re_activate_already'] = 'Er is vandaag al een activeringsmail verzonden';
 $LNG['re_activate_sent'] = 'Er is een activatie-e-mail verzonden';
 
