@@ -102,7 +102,7 @@ $LNG['group_invite'] = $LNG['email_hello']. '<strong><a href="%s">%s</a></strong
 $LNG['ttl_suspended_account_mail'] = 'Uw account is opgeschort';
 $LNG['suspended_account_mail'] = $LNG['email_hello']. 'Uw account is opgeschort. Als u denkt dat dit een fout was, neem dan contact met ons op. '.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Activeer uw account';
-$LNG['confirm_email'] = $LNG 'email_hello'].'Bedankt voor uw deelname aan <strong>%s</strong>. Voltooi uw registratie door <a href="%s" target="_blank">hier te klikken</a>.'.$LNG['email_copy'];
+$LNG['confirm_email'] = $LNG['email_hello'].'Bedankt voor uw deelname aan <strong>%s</strong>. Voltooi uw registratie door <a href="%s" target="_blank">hier te klikken</a>.'.$LNG['email_copy'];
 $LNG['ttl_mention_email'] = '%s heeft je in een bericht genoemd';
 $LNG['ttl_mention_c_email'] = '%s heeft je in een reactie genoemd';
 $LNG['mention_email'] = $LNG ['email_hello']. '<strong><a href="%s">%s</a></strong> heeft je genoemd in een <strong><a href="%s">bericht</a></strong>'.$LNG['email_unsub'];
