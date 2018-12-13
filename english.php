@@ -6,7 +6,7 @@ $name = 'English';
 $author = 'phpSocial';
 
 // Language URL
-$url = 'http://phpsocial.com';
+$url = 'https://phpsocial.com';
 
 $LNG['lang_direction'] = 'ltr';
 

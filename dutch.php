@@ -6,7 +6,7 @@ $name = 'Dutch';
 $author = 'Cazual';
 
 // Language URL
-$url = 'http://cazual.com';
+$url = 'https://cazual.com';
 
 $LNG['lang_direction'] = 'ltr';
 
