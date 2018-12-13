@@ -143,7 +143,7 @@ $LNG['delete_q_message'] = 'Are you sure you want to delete this message?';
 $LNG['delete_q_chat'] = 'Are you sure you want to delete this chat message?';
 $LNG['report_this_comment'] = 'Report this comment';
 $LNG['view_more'] = 'View more';
-$LNG['food'] = 'I ate at: <strong>%s</strong>';
+$LNG['food'] = 'I ate: <strong>%s</strong>';
 $LNG['map'] = 'I was at: <strong>%s</strong>';
 $LNG['played'] = 'I played: <strong>%s</strong>';
 $LNG['watched'] = 'I watched: <strong>%s</strong>';
@@ -244,11 +244,11 @@ $LNG['start_conversation'] = 'You can start a conversation by chosing a person f
 $LNG['send_message'] = 'Send Message';
 
 // MESSAGE FORM
-$LNG['label_food'] = 'Add a place where you ate at';
+$LNG['label_food'] = 'Add what you ate';
 $LNG['label_game'] = 'Add a played game';
 $LNG['label_map'] = 'Add a place';
-$LNG['label_video'] = 'Share a movie or a link from YouTube or Vimeo';
-$LNG['label_music'] = 'Share a song or a link from SoundCloud';
+$LNG['label_video'] = 'Add a watched movie';
+$LNG['label_music'] = 'Add a listened song';
 $LNG['label_image'] = 'Upload images';
 $LNG['message_form'] = 'What\'s on your mind?';
 $LNG['file_too_big'] = 'The selected file size (%s) is too big, the maxium file size allowed is <strong>%s</strong>.';

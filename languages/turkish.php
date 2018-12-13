@@ -244,11 +244,11 @@ $LNG['start_conversation'] = 'Arkadaş listenden birisini seçerek konuşmaya ba
 $LNG['send_message'] = 'Mesaj gönder';
 
 // MESSAGE FORM
-$LNG['label_food'] = 'Yemek yediğiniz bir yer ekleyin';
+$LNG['label_food'] = 'Ne yediğinizi ekleyin';
 $LNG['label_game'] = 'Oynadığınız bir oyun ekleyin';
 $LNG['label_map'] = 'Bir yer ekleyin';
-$LNG['label_video'] = 'YouTube yada Vimeo üzerinden bir link yada video paylaşın';
-$LNG['label_music'] = 'SoundCloud üzerinden bir link yada şarkı paylaşın';
+$LNG['label_video'] = 'İzlenen bir film ekle';
+$LNG['label_music'] = 'Dinledikten bir şarkı ekle';
 $LNG['label_image'] = 'Resimler yükle';
 $LNG['message_form'] = 'Aklınızda ne var?';
 $LNG['file_too_big'] = 'Seçtiğiniz dosya (%s) çok büyük, izin verilen maksimum boyut <strong>%s</strong>.';

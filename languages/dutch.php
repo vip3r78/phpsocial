@@ -143,7 +143,7 @@ $LNG['delete_q_message'] = 'Weet je zeker dat je dit bericht wilt verwijderen?';
 $LNG['delete_q_chat'] = 'Weet je zeker dat je dit chatbericht wilt verwijderen?';
 $LNG['report_this_comment'] = 'Rapporteer deze opmerking';
 $LNG['view_more'] = 'Bekijk meer';
-$LNG['food'] = 'Ik heb gegeten bij: <strong>%s</strong>';
+$LNG['food'] = 'Ik heb gegeten: <strong>%s</strong>';
 $LNG['map'] = 'Ik was bij: <strong>%s</strong>';
 $LNG['played'] = 'Ik speelde: <strong>%s</strong>';
 $LNG['watched'] = 'Ik keek: <strong>%s</strong>';
@@ -244,11 +244,11 @@ $LNG['start_conversation'] = 'Je kunt een gesprek beginnen door een persoon uit 
 $LNG['send_message'] = 'Verstuur bericht';
 
 // MESSAGE FORM
-$LNG['label_food'] = 'Voeg een plek toe waar je hebt gegeten';
+$LNG['label_food'] = 'Voeg toe wat je hebt gegeten';
 $LNG['label_game'] = 'Voeg een gespeeld spel toe';
 $LNG['label_map'] = 'Plaats toevoegen';
-$LNG['label_video'] = 'Deel een film of een link van YouTube of Vimeo';
-$LNG['label_music'] = 'Deel een liedje of een link van SoundCloud';
+$LNG['label_video'] = 'Voeg een bekeken film toe';
+$LNG['label_music'] = 'Voeg een beluisterd nummer toe';
 $LNG['label_image'] = 'Upload afbeeldingen';
 $LNG['message_form'] = 'Waar denk je aan?';
 $LNG['file_too_big'] = 'De geselecteerde bestandsgrootte (%s) is te groot, de maximaal toegestane bestandsgrootte is <strong>%s</strong>.';

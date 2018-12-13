@@ -143,7 +143,7 @@ $LNG['delete_q_message'] = 'Êtes-vous certain(e) de vouloir supprimer cette pub
 $LNG['delete_q_chat'] = 'Êtes-vous certain(e) de vouloir supprimer ce message du chat ?';
 $LNG['report_this_comment'] = 'Signaler ce commentaire';
 $LNG['view_more'] = 'En voir plus';
-$LNG['food'] = 'J\'ai mangé à : <strong>%s</strong>';
+$LNG['food'] = 'J\'ai mangé : <strong>%s</strong>';
 $LNG['map'] = 'J\'étais à : <strong>%s</strong>';
 $LNG['played'] = 'J\'ai joué à : <strong>%s</strong>';
 $LNG['watched'] = 'J\'ai regardé : <strong>%s</strong>';
@@ -244,11 +244,11 @@ $LNG['start_conversation'] = 'Vous pouvez démarrer une conversation en choissan
 $LNG['send_message'] = 'Contacter';
 
 // MESSAGE FORM
-$LNG['label_food'] = 'Ajouter un lieu où vous avez mangé';
+$LNG['label_food'] = 'Ajoutez ce que vous avez mangé';
 $LNG['label_game'] = 'Ajouter un jeu auquel vous avez joué';
 $LNG['label_map'] = 'Ajouter un lieu';
-$LNG['label_video'] = 'Partager un film, un lien Youtube ou Vimeo';
-$LNG['label_music'] = 'Partager une chanson ou un lien SoundCloud';
+$LNG['label_video'] = 'Ajouter un film regardé';
+$LNG['label_music'] = 'Ajouter une chanson écoutée';
 $LNG['label_image'] = 'Charger des images';
 $LNG['message_form'] = 'Qu\'avez-vous en tête ?';
 $LNG['file_too_big'] = 'La taille du fichier sélectionné (%s) est trop importante, la taille maximum autorisée est de <strong>%s</strong>.';

@@ -143,7 +143,7 @@ $LNG['delete_q_message'] = 'Ești sigur(ă) că vrei să ștergi acest mesaj?';
 $LNG['delete_q_chat'] = 'Ești sigur(ă) că vrei să ștergi acest mesaj din conversație?';
 $LNG['report_this_comment'] = 'Raportează acest comentariu';
 $LNG['view_more'] = 'Vezi mai mult';
-$LNG['food'] = 'Am mâncat la: <strong>%s</strong>';
+$LNG['food'] = 'Am mâncat: <strong>%s</strong>';
 $LNG['map'] = 'Am fost la: <strong>%s</strong>';
 $LNG['played'] = 'M-am jucat: <strong>%s</strong>';
 $LNG['watched'] = 'Am vizionat: <strong>%s</strong>';
@@ -244,11 +244,11 @@ $LNG['start_conversation'] = 'Poțo începe o conversație alegând o persoană 
 $LNG['send_message'] = 'Trimite mesaj';
 
 // MESSAGE FORM
-$LNG['label_food'] = 'Adăugați o locație unde ați mâncat';
-$LNG['label_game'] = 'Adăugați un joc jucat';
+$LNG['label_food'] = 'Adaugă ce ai mâncat';
+$LNG['label_game'] = 'Adaugă un joc jucat';
 $LNG['label_map'] = 'Adaugă o locație';
-$LNG['label_video'] = 'Distribuiți un film sau un link de pe YouTube sau Vimeo';
-$LNG['label_music'] = 'Distribuiți o melodie sau un link de pe SoundCloud';
+$LNG['label_video'] = 'Adaugă un film vizionat';
+$LNG['label_music'] = 'Adaugă o melodie ascultată';
 $LNG['label_image'] = 'Încarcăți imagini';
 $LNG['message_form'] = 'La ce te gândești?';
 $LNG['file_too_big'] = 'Mărimea fișierului selectat (%s) este prea mare, mărimea maximă a unui fișier admisă este de <strong>%s</strong>.';
