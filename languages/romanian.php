@@ -6,7 +6,7 @@ $name = 'Romanian';
 $author = 'phpSocial';
 
 // Language URL
-$url = 'http://phpsocial.com';
+$url = 'https://phpsocial.com';
 
 $LNG['lang_direction'] = 'ltr';
 
@@ -326,9 +326,6 @@ $LNG['sub_facebook'] = 'ID-ul tău de facebook';
 
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = 'ID-ul tău de twitter';
-
-$LNG['ttl_google'] = 'Google+';
-$LNG['sub_google'] = 'ID-ul tău de Google+';
 
 $LNG['ttl_bio'] = 'Bio';
 $LNG['sub_bio'] = 'Despre tine (160 de caractere sau mai puțin)';

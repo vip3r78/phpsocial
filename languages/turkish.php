@@ -6,7 +6,7 @@ $name = 'Turkish';
 $author = 'Safak Mocuk';
 
 // Language URL
-$url = 'http://phpsocial.com';
+$url = 'https://phpsocial.com';
 
 $LNG['lang_direction'] = 'ltr';
 
@@ -326,9 +326,6 @@ $LNG['sub_facebook'] = 'Facebook kimliğiniz.';
 
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = 'Twitter kimliğiniz.';
-
-$LNG['ttl_google'] = 'Google+';
-$LNG['sub_google'] = 'Google+ kimliğiniz.';
 
 $LNG['ttl_bio'] = 'Biografiniz';
 $LNG['sub_bio'] = 'Hakkınızda (160 karakter yada daha az)';

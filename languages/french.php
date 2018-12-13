@@ -6,7 +6,7 @@ $name = 'French';
 $author = 'phpSocial';
 
 // Language URL
-$url = 'http://phpsocial.com';
+$url = 'https://phpsocial.com';
 
 $LNG['lang_direction'] = 'ltr';
 
@@ -326,9 +326,6 @@ $LNG['sub_facebook'] = 'Votre Facebook profile ID.';
 
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = 'Votre twitter profile ID.';
-
-$LNG['ttl_google'] = 'Google+';
-$LNG['sub_google'] = 'Votre google+ profile ID.';
 
 $LNG['ttl_bio'] = 'Bio';
 $LNG['sub_bio'] = 'À propos de vous (160 caractères maxi)';

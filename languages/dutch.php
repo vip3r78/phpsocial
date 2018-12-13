@@ -6,7 +6,7 @@ $name = 'Dutch';
 $author = 'Cazual';
 
 // Language URL
-$url = 'http://cazual.com';
+$url = 'https://cazual.com';
 
 $LNG['lang_direction'] = 'ltr';
 
@@ -326,9 +326,6 @@ $LNG['sub_facebook'] = 'Uw Facebook-profiel-ID.';
 
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = 'Uw Twitter-profiel-ID.';
-
-$LNG['ttl_google'] = 'Google+';
-$LNG['sub_google'] = 'Uw google + profiel-ID.';
 
 $LNG['ttl_bio'] = 'Bio';
 $LNG['sub_bio'] = 'Over jou (160 tekens of minder)';
