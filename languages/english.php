@@ -8,7 +8,7 @@ $author = 'phpSocial';
 // Language URL
 $url = 'https://phpsocial.com';
 
-$LNG['lang_direction'] = 'ltr';
+$LNG['lang_dir'] = 'ltr';
 
 $LNG['user_success'] = 'User succesfully created';
 $LNG['user_exists'] = 'This username already exists';
@@ -365,7 +365,7 @@ $LNG['sub_repeat_password'] = 'Repeat your new password';
 $LNG['ttl_current_password'] = 'Current Password';
 $LNG['sub_current_password'] = 'Enter your current password';
 $LNG['save_changes'] = 'Save Changes';
-$LNG['profile_images_desc'] = 'Click on the profile picture or cover to change them';
+$LNG['profile_images_desc'] = 'Click on the profile picture or cover to change them.';
 $LNG['confirm'] = 'Confirm';
 $LNG['approve'] = 'Approve';
 $LNG['requests'] = 'Requests';

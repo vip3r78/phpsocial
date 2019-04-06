@@ -8,7 +8,7 @@ $author = 'Cazual';
 // Language URL
 $url = 'https://cazual.com';
 
-$LNG['lang_direction'] = 'ltr';
+$LNG['lang_dir'] = 'ltr';
 
 $LNG['user_success'] = 'Gebruikersnaam aangemaakt';
 $LNG['user_exists'] = 'De gebruiker bestaat al';
@@ -365,7 +365,7 @@ $LNG['sub_repeat_password'] = 'Herhaal uw nieuwe wachtwoord';
 $LNG['ttl_current_password'] = 'Huidig ​​wachtwoord';
 $LNG['sub_current_password'] = 'Vul uw huidige wachtwoord in';
 $LNG['save_changes'] = 'Wijzigingen opslaan';
-$LNG['profile_images_desc'] = 'Klik op de profielfoto of omslag om ze te wijzigen';
+$LNG['profile_images_desc'] = 'Klik op de profielfoto of omslag om ze te wijzigen.';
 $LNG['confirm'] = 'Bevestig';
 $LNG['approve'] = 'Goedkeuren';
 $LNG['requests'] = 'Verzoeken';
