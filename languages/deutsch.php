@@ -48,14 +48,14 @@ $LNG['welcome_three_desc'] = 'Discover new people, create new connections and ma
 $LNG['latest_users'] = 'Neueste Benutzer';
 
 // NOTIFICATION BOXES
-$LNG['settings_saved'] = 'Settings Saved';
-$LNG['nothing_saved'] = 'Nothing Saved';
-$LNG['password_changed'] = 'Password Changed';
-$LNG['nothing_changed'] = 'Nothing Changed';
+$LNG['settings_saved'] = 'Einstellungen gespeichert';
+$LNG['nothing_saved'] = 'Nichts gespeichert';
+$LNG['password_changed'] = 'Passwort geändert';
+$LNG['nothing_changed'] = 'Nichts geändert';
 $LNG['incorrect_date'] = 'The selected date is not valid, please pick a valid date.';
 $LNG['password_not_changed'] = 'The password was not changed.';
-$LNG['image_saved'] = 'Image Saved';
-$LNG['error'] = 'Error';
+$LNG['image_saved'] = 'Bild gespeichert';
+$LNG['error'] = 'Fehler';
 $LNG['no_file'] = 'You did not selected any files to be uploaded, or the selected file(s) are empty.';
 $LNG['file_exceeded'] = 'The selected file size must not exceed <strong>%s</strong> MB.';
 $LNG['file_format'] = 'The selected file format is not supported. Upload <strong>%s</strong> file format';
