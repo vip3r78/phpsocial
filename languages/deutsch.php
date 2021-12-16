@@ -799,15 +799,15 @@ $LNG['page_5'] = 'Entertainment';
 $LNG['page_6'] = 'Cause or Community';
 
 // GROUP
-$LNG['create_group'] = 'Create Group';
-$LNG['edit_group'] = 'Edit Group';
-$LNG['leave_group'] = 'Leave Group';
-$LNG['delete_group'] = 'Delete Group';
-$LNG['discussion'] = 'Discussion';
-$LNG['members'] = 'Members';
+$LNG['create_group'] = 'Gruppe erstellen';
+$LNG['edit_group'] = 'Gruppe bearbeiten';
+$LNG['leave_group'] = 'Gruppe verlassen';
+$LNG['delete_group'] = 'Gruppe löschen';
+$LNG['discussion'] = 'Diskussionen';
+$LNG['members'] = 'Mitglieder';
 $LNG['admins'] = 'Admins';
-$LNG['page'] = 'Page';
-$LNG['group'] = 'Group';
+$LNG['page'] = 'Seite';
+$LNG['group'] = 'Gruppe';
 $LNG['group_private'] = 'Sorry, but this group is private, only the member of this group can view the content.';
 $LNG['group_private_ttl'] = 'Private Group';
 $LNG['name'] = 'Name';
