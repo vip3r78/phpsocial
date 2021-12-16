@@ -923,16 +923,16 @@ $LNG['search_for_people'] = 'search people, #hashtags';
 $LNG['search_pages'] = ', @pages';
 $LNG['search_groups'] = ', !groups';
 $LNG['new_message'] = 'New message';
-$LNG['privacy_policy'] = 'Privacy Policy';
-$LNG['terms_of_use'] = 'Terms of Use';
-$LNG['privacy_policy_url'] = 'The Privacy Policy page URL';
-$LNG['terms_of_use_url'] = 'The Terms of Use page URL';
+$LNG['privacy_policy'] = 'Datenschutzbestimmungen';
+$LNG['terms_of_use'] = 'Nutzungsbedingungen';
+$LNG['privacy_policy_url'] = 'Die URL der Seite Datenschutzrichtlinie';
+$LNG['terms_of_use_url'] = 'Die URL der Seite mit den Nutzungsbedingungen';
 $LNG['about'] = 'About';
-$LNG['disclaimer'] = 'Disclaimer';
-$LNG['contact'] = 'Contact';
+$LNG['disclaimer'] = 'Haftungsauschluß';
+$LNG['contact'] = 'Kontakt';
 $LNG['developers'] = 'Developers';
-$LNG['language'] = 'Language';
-$LNG['register_agreement'] = 'I agree with the <a href="%s" target="_blank">'.$LNG['terms_of_use'].'</a> and <a href="%s" target="_blank">'.$LNG['privacy_policy'].'</a>.';
+$LNG['language'] = 'Sprache';
+$LNG['register_agreement'] = 'Ich bin einverstanden mit den <a href="%s" target="_blank">'.$LNG['terms_of_use'].'</a> und <a href="%s" target="_blank">'.$LNG['privacy_policy'].'</a>.';
 $LNG['agreement_required'] = 'In order to register, you first must agree with the '.$LNG['terms_of_use'].' and '.$LNG['privacy_policy'].'.';
 
 // EMOJIS
