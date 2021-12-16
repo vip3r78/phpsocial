@@ -43,8 +43,8 @@ $LNG['welcome_one'] = 'Verbinden';
 $LNG['welcome_two'] = 'Teilen';
 $LNG['welcome_three'] = 'Entdecken';
 $LNG['welcome_one_desc'] = 'Treten Sie in Kontakt mit Ihrer Familie, Ihren Freunden oder der Welt um Sie herum.';
-$LNG['welcome_two_desc'] = 'Share your important life moments with those who you love.';
-$LNG['welcome_three_desc'] = 'Discover new people, create new connections and make new friends.';
+$LNG['welcome_two_desc'] = 'Teilen Sie wichtige Momenta Ihres Lebens mit den Menschen die Sie lieben.';
+$LNG['welcome_three_desc'] = 'Entdecken Sie neue Leute, knüpfen Sie neue Kontakte und schließen Sie neue Freundschaften.';
 $LNG['latest_users'] = 'Neueste Benutzer';
 
 // NOTIFICATION BOXES
@@ -52,8 +52,8 @@ $LNG['settings_saved'] = 'Einstellungen gespeichert';
 $LNG['nothing_saved'] = 'Nichts gespeichert';
 $LNG['password_changed'] = 'Passwort geändert';
 $LNG['nothing_changed'] = 'Nichts geändert';
-$LNG['incorrect_date'] = 'The selected date is not valid, please pick a valid date.';
-$LNG['password_not_changed'] = 'The password was not changed.';
+$LNG['incorrect_date'] = 'Das ausgewählte Datum ist nicht gültig, bitte wählen Sie ein gültiges Datum.';
+$LNG['password_not_changed'] = 'Das Passwort wurde nicht geändert.';
 $LNG['image_saved'] = 'Bild gespeichert';
 $LNG['error'] = 'Fehler';
 $LNG['no_file'] = 'Sie haben keine Dateien zum Hochladen ausgewählt, oder die ausgewählte(n) Datei(en) sind leer.';
@@ -64,23 +64,23 @@ $LNG['bio_description'] = 'Die Beschreibung sollte %s Zeichen oder weniger entha
 $LNG['valid_email'] = 'Bitte geben Sie eine gültige E-Mail ein.';
 $LNG['valid_url'] = 'Bitte geben Sie ein gültiges URL-Format ein.';
 $LNG['valid_country'] = 'Bitte geben Sie ein gültiges Land ein.';
-$LNG['password_too_short'] = 'The password must contain at least 6 characters.';
-$LNG['password_not_match'] = 'The password did not match.';
-$LNG['wrong_current_password'] = 'The current password you\'ve entered is incorrect.';
+$LNG['password_too_short'] = 'Das Passwort muss mindestens 6 Zeichen enthalten.';
+$LNG['password_not_match'] = 'Das Passwort stimmt nicht überein.';
+$LNG['wrong_current_password'] = 'Das von Ihnen eingegebene Passwort ist falsch.';
 $LNG['username_not_found'] = 'We couldn\'t find the username.';
-$LNG['userkey_not_found'] = 'The username or the reset key are wrong, make sure you\'ve entered the correct credentials.';
-$LNG['password_reset'] = 'You have succcessfully reset your passsword, you can now log-in using the new credentials.';
-$LNG['email_sent'] = 'Email sent';
-$LNG['email_reset'] = 'An email containing password reset instructions has been sent. Please allow us up to 24 hours to deliver the message, also check your Spam box if you can\'t find in your Inbox.';
+$LNG['userkey_not_found'] = 'Der Benutzername oder der Reset-Schlüssel sind falsch, vergewissern Sie sich, dass Sie die richtigen Anmeldedaten eingegeben haben.';
+$LNG['password_reset'] = 'Sie haben Ihr Kennwort erfolgreich zurückgesetzt und können sich nun mit den neuen Anmeldedaten anmelden.';
+$LNG['email_sent'] = 'E-Mail gesendet';
+$LNG['email_reset'] = 'Eine E-Mail mit Anweisungen zum Zurücksetzen des Passworts wurde gesendet. Bitte geben Sie uns bis zu 24 Stunden Zeit, um die Nachricht zuzustellen. Prüfen Sie auch Ihr Spam-Fach, falls Sie es nicht in Ihrem Posteingang finden.';
 $LNG['user_has_been_deleted'] = 'User <strong>%s</strong> has been deleted.';
-$LNG['theme_changed'] = 'Theme changed';
-$LNG['notif_saved'] = 'Notifications changed';
-$LNG['notif_success_saved'] = 'Notifications has been successfully updated.';
+$LNG['theme_changed'] = 'Theme geändert.';
+$LNG['notif_saved'] = 'Benachrichtigungen geändert';
+$LNG['notif_success_saved'] = 'Die Benachrichtigungen wurden erfolgreich aktualisiert.';
 
 // MAIL CONTENT
-$LNG['welcome_mail'] = 'Welcome to %s';
+$LNG['welcome_mail'] = 'Willkommen auf %';
 $LNG['user_created'] = 'Thank you for joining <strong>%s</strong>.<br><br>Your username: <strong>%s</strong><br><br>You can log-in at: <a href="%s" target="_blank">%s</a>';
-$LNG['recover_mail'] = 'Password Recovery';
+$LNG['recover_mail'] = 'Passwort-Wiederherstellung';
 $LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br><br>Your Username: <strong>%s</strong><br>Your Reset Key: <strong>%s</strong><br><br>You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>';
 $LNG['email_hello'] = 'Hello <strong>%s</strong>,<br><br>';
 $LNG['email_unsub'] = '<br><br><span>This message was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
@@ -113,11 +113,11 @@ $LNG['openssl_error'] = 'You must enable <strong>OpenSSL</strong> extension on t
 $LNG['curl_error'] = 'Is recommended that <strong>cURL</strong> extension is enabled on the server';
 
 // ADMIN PANEL
-$LNG['general_link'] = 'General';
-$LNG['security_link'] = 'Security';
-$LNG['manage_users'] = 'Manage Users';
-$LNG['registration'] = 'Registration';
-$LNG['limits'] = 'Limits';
+$LNG['general_link'] = 'Allgemein';
+$LNG['security_link'] = 'Sicherheit';
+$LNG['manage_users'] = 'Benutzer verwalten';
+$LNG['registration'] = 'Anmedlung';
+$LNG['limits'] = 'Grenzwerte';
 $LNG['emails'] = 'Emails';
 
 $LNG['theme_install'] = 'To install a new theme, upload it on the <strong>themes</strong> folder';
@@ -125,67 +125,67 @@ $LNG['plugin_install'] = 'To install a new plugin, upload it on the <strong>plug
 $LNG['language_install'] = 'To install a new language, upload it on the <strong>languages</strong> folder';
 $LNG['author_title'] = 'Visit the author homepage';
 $LNG['version'] = 'Version';
-$LNG['active'] = 'Active';
-$LNG['activate'] = 'Activate';
-$LNG['deactivate'] = 'Deactivate';
-$LNG['by'] = 'By';
-$LNG['settings'] = 'Settings';
+$LNG['active'] = 'Aktiv';
+$LNG['activate'] = 'Aktivieren';
+$LNG['deactivate'] = 'Deaktivieren';
+$LNG['by'] = 'Von';
+$LNG['settings'] = 'Einstellungen';
 
 // FEED
-$LNG['welcome_feed_ttl'] = 'Welcome to your News Feed';
-$LNG['welcome_feed'] = 'All the posts from your friends will appear on this page, start by making new friends.';
+$LNG['welcome_feed_ttl'] = 'Willkommen bei Ihrem News Feed';
+$LNG['welcome_feed'] = 'Alle Beiträge deiner Freunde werden auf dieser Seite angezeigt. Beginne damit, neue Freunde zu finden.';
 $LNG['leave_comment'] = 'Hinterlasse einen Kommentar..';
 $LNG['post'] = 'Posten';
-$LNG['view_more_messages'] = 'Load More';
-$LNG['view_more_comments'] = 'View more comments';
-$LNG['delete_q_comment'] = 'Are you sure you want to delete this comment?';
-$LNG['delete_q_message'] = 'Are you sure you want to delete this message?';
-$LNG['delete_q_chat'] = 'Are you sure you want to delete this chat message?';
-$LNG['report_this_comment'] = 'Report this comment';
-$LNG['view_more'] = 'View more';
-$LNG['food'] = 'I ate: <strong>%s</strong>';
-$LNG['map'] = 'I was at: <strong>%s</strong>';
-$LNG['played'] = 'I played: <strong>%s</strong>';
-$LNG['watched'] = 'I watched: <strong>%s</strong>';
-$LNG['listened'] = 'I listened: <strong>%s</strong>';
+$LNG['view_more_messages'] = 'Mehr laden';
+$LNG['view_more_comments'] = 'Mehr Kommentare anzeigen';
+$LNG['delete_q_comment'] = 'Sind Sie sicher, dass Sie diesen Kommentar löschen wollen?';
+$LNG['delete_q_message'] = 'Sind Sie sicher, dass Sie diese Nachricht löschen möchten?';
+$LNG['delete_q_chat'] = 'Sind Sie sicher, dass Sie diese Chat-Nachricht löschen möchten?';
+$LNG['report_this_comment'] = 'Diesen Kommentar melden';
+$LNG['view_more'] = 'Mehr sehen';
+$LNG['food'] = 'Ich habe gegessen: <strong>%s</strong>';
+$LNG['map'] = 'Ich war bei: <strong>%s</strong>';
+$LNG['played'] = 'Ich habe gespielt: <strong>%s</strong>';
+$LNG['watched'] = 'Ich habe gesehen: <strong>%s</strong>';
+$LNG['listened'] = 'Ich habe gehört:  <strong>%s</strong>';
 $LNG['shared_title'] = 'shared <a href="%s" rel="loadpage"><strong>%s</strong></a>\'s <a href="%s" rel="loadpage"><strong>message</strong></a>.';
 $LNG['group_title'] = 'posted in <a href="%s" rel="loadpage"><strong>%s</strong></a> group.';
-$LNG['form_title'] = 'Update your status';
-$LNG['comment_wrong'] = 'Something went wrong, please refresh the page and try again.';
-$LNG['comment_too_long'] = 'Sorry, the maximum characters allowed per comment is <strong>%s</strong>.';
-$LNG['comment_error'] = 'Sorry, we couldn\'t post the comment, please refresh the page and try again.';
+$LNG['form_title'] = 'Aktualisieren Sie Ihren Status';
+$LNG['comment_wrong'] = 'Es ist ein Fehler aufgetreten. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
+$LNG['comment_too_long'] = 'Tut mir leid, die maximal erlaubten Zeichen pro Kommentar sind <strong>%s</strong>.';
+$LNG['comment_error'] = 'Entschuldigung, wir konnten den Kommentar nicht veröffentlichen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
 $LNG['message_private'] = 'Sorry, this message is private, only the author of the message can see it.';
 $LNG['message_private_ttl'] = 'Private Message';
-$LNG['message_semi_private'] = 'Sorry, this message is private, only the friends and the author of this message can see it.';
-$LNG['message_semi_private_ttl'] = 'Private Message';
-$LNG['login_to_lcs'] = 'Log-in to Like, Comment or Share';
-$LNG['message'] = 'Message';
-$LNG['comment'] = 'Comment';
-$LNG['share'] = 'Share';
+$LNG['message_semi_private'] = 'Sorry, diese Nachricht ist privat, nur der Autor der Nachricht kann sie sehen.';
+$LNG['message_semi_private_ttl'] = 'Private Nachricht';
+$LNG['login_to_lcs'] = 'Einloggen, um zu liken, zu kommentieren oder zu teilen';
+$LNG['message'] = 'Nchricht';
+$LNG['comment'] = 'Kommenta';
+$LNG['share'] = 'Teilen';
 $LNG['camera'] = 'Camera';
 $LNG['capture'] = 'Capture';
-$LNG['send'] = 'Send';
+$LNG['send'] = 'Senden';
 $LNG['shared_success'] = 'The post has been successfully shared on your <a href="%s" rel="loadpage"><strong>timeline</strong></a>.';
-$LNG['no_shared'] = 'Sorry but this message can\'t be shared.';
-$LNG['share_desc'] = 'Are you sure do you want to share this message on your timeline?';
-$LNG['cancel'] = 'Cancel';
-$LNG['close'] = 'Close';
+$LNG['no_shared'] = 'Es tut mir leid, aber diese Nachricht kann nicht weitergegeben werden.';
+$LNG['share_desc'] = 'Sind Sie sicher, dass Sie diese Nachricht in Ihrer Timeline teilen möchten?';
+$LNG['cancel'] = 'Abbrechen';
+$LNG['close'] = 'Schließen';
 $LNG['download'] = 'Download';
 
 // REPORT
-$LNG['1_not_exists'] = 'The reported message does not exist.';
-$LNG['0_not_exists'] = 'The reported comment does not exist.';
-$LNG['1_already_reported'] = 'This message has already been reported and it will be reviewed in the shortest time, thank you.';
-$LNG['0_already_reported'] = 'This comment has already been reported and it will be reviewed in the shortest time, thank you.';
-$LNG['1_is_safe'] = 'This message is marked as <strong>safe</strong> by an administrator, thank you for your feedback.';
-$LNG['0_is_safe'] = 'This comment is marked as <strong>safe</strong> by an administrator, thank you for your feedback.';
-$LNG['1_report_added'] = 'The message has been reported, thank you for your feedback.';
-$LNG['0_report_added'] = 'The comment has been reported, thank you for your feedback.';
-$LNG['1_report_error'] = 'Sorry but something went wrong while reporting this message, please refresh the page and try again.';
-$LNG['0_report_error'] = 'Sorry but something went wrong while reporting this comment, please refresh the page and try again.';
-$LNG['1_is_deleted'] = 'The message has been removed, thank you for your feedback.';
-$LNG['0_is_deleted'] = 'The comment has been removed, thank you for your feedback.';
-$LNG['rep_comment'] = 'Comment';
+$LNG['1_not_exists'] = 'Die gemeldete Nachricht existiert nicht.';
+$LNG['0_not_exists'] = 'Der gemeldete Kommentar existiert nicht.';
+$LNG['1_already_reported'] = 'Diese Nachricht wurde bereits gemeldet und wird in kürzester Zeit überprüft, vielen Dank.';
+$LNG['0_already_reported'] = 'Diese Bemerkung wurde bereits gemeldet und wird in kürzester Zeit geprüft, vielen Dank.';
+$LNG['1_is_safe'] = 'Diese Nachricht wurde von einem Administrator als <strong>sicher</strong> markiert. Vielen Dank für Ihr Feedback.';
+$LNG['0_is_safe'] = 'Dieser Kommentar wurde von einem Administrator als <strong>sicher</strong> markiert. Vielen Dank für Ihr Feedback.';
+$LNG['1_report_added'] = 'Die Nachricht wurde gemeldet, vielen Dank für Ihr Feedback.';
+$LNG['0_report_added'] = 'Der Kommentar wurde gemeldet. Vielen Dank für Ihr Feedback.';
+$LNG['1_report_error'] = 'Beim Melden dieser Nachricht ist leider ein Fehler aufgetreten. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
+$LNG['0_report_error'] = 'Beim Melden dieses Kommentars ist leider ein Fehler aufgetreten. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
+$LNG['1_is_deleted'] = 'Die Nachricht wurde entfernt, wir danken Ihnen für Ihr Feedback.';
+$LNG['0_is_deleted'] = 'Der Kommentar wurde entfernt. Vielen Dank für Ihr Feedback.';
+$LNG['rep_comment'] = 'Kommentar';
 
 // SIDEBAR
 $LNG['groups'] = 'Groups';
@@ -228,165 +228,165 @@ $LNG['sidebar_people'] = 'People';
 $LNG['sidebar_tag'] = 'Hashtags';
 
 // MESSAGES / CHAT
-$LNG['lonely_here'] = 'It\'s lonely here, how about making some friends?';
-$LNG['chat_too_long'] = 'Sorry, but the maximum characters allowed per chat message is <strong>%s</strong>.';
-$LNG['blocked_by'] = 'The message could not be sent. <strong>%s</strong> blocked you.';
-$LNG['blocked_user'] = 'The message could not be sent. You\'ve blocked <strong>%s</strong>.';
-$LNG['chat_self'] = 'Sorry but we cannot deliver chat messages to yourself.';
-$LNG['chat_no_user'] = 'You must select a user to chat with.';
-$LNG['view_more_conversations'] = 'View more conversations';
+$LNG['lonely_here'] = 'Es ist einsam hier, wie wäre es, wenn du ein paar Freunde findest?';
+$LNG['chat_too_long'] = 'Es tut mir leid, aber die maximal erlaubten Zeichen pro Chat-Nachricht sind <strong>%s</strong>.';
+$LNG['blocked_by'] = 'Die Nachricht konnte nicht gesendet werden. <strong>%s</strong> hat dich blockiert.';
+$LNG['blocked_user'] = 'Die Nachricht konnte nicht gesendet werden. Sie haben <strong>%s</strong> blockiert.';
+$LNG['chat_self'] = 'Leider können wir keine Chat-Nachrichten an Sie selbst senden.';
+$LNG['chat_no_user'] = 'Sie müssen einen Benutzer auswählen, mit dem Sie chatten möchten.';
+$LNG['view_more_conversations'] = 'Mehr Konversationen anzeigen';
 $LNG['block'] = 'Block';
 $LNG['unblock'] = 'Unblock';
 $LNG['poke'] = 'Poke';
 $LNG['poked'] = 'Poked';
 $LNG['conversation'] = 'Conversation';
-$LNG['start_conversation'] = 'You can start a conversation by chosing a person from your friends list.';
-$LNG['send_message'] = 'Send Message';
+$LNG['start_conversation'] = 'Sie können ein Gespräch beginnen, indem Sie eine Person aus Ihrer Freundesliste auswählen.';
+$LNG['send_message'] = 'Nachricht senden';
 
 // MESSAGE FORM
-$LNG['label_food'] = 'Add what you ate';
+$LNG['label_food'] = 'Hinzufügen, was Sie gegessen haben';
 $LNG['label_game'] = 'Add a played game';
-$LNG['label_map'] = 'Add a place';
-$LNG['label_video'] = 'Add a watched movie';
-$LNG['label_music'] = 'Add a listened song';
-$LNG['label_image'] = 'Upload images';
-$LNG['message_form'] = 'What\'s on your mind?';
-$LNG['file_too_big'] = 'The selected file size (%s) is too big, the maxium file size allowed is <strong>%s</strong>.';
-$LNG['format_not_exist'] = 'The selected file (%s) format is invalid, please upload only <strong>%s</strong> image format.';
-$LNG['privacy_no_exist'] = 'The selected privacy does not exist, please refresh the page and try again.';
-$LNG['event_not_exist'] = 'The selected event does not exist, please refresh the page and try again.';
-$LNG['change_privacy'] = 'Who should see the message';
+$LNG['label_map'] = 'Einen Ort hinzufügen';
+$LNG['label_video'] = 'Einen gesehenen Film hinzufügen';
+$LNG['label_music'] = 'Einen gehörten Song hinzufügen';
+$LNG['label_image'] = 'Bilder hochladen';
+$LNG['message_form'] = 'Was haben Sie auf dem Herzen?';
+$LNG['file_too_big'] = 'Die ausgewählte Dateigröße (%s) ist zu groß, die maximal zulässige Dateigröße ist <strong>%s</strong>.';
+$LNG['format_not_exist'] = 'Das gewählte Dateiformat (%s) ist ungültig, bitte laden Sie nur das <strong>%s</strong> Bildformat hoch.';
+$LNG['privacy_no_exist'] = 'Der ausgewählte Datenschutz existiert nicht, bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
+$LNG['event_not_exist'] = 'Das ausgewählte Ereignis existiert nicht, bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
+$LNG['change_privacy'] = 'Wer sollte die Meldung sehen';
 
-$LNG['message_too_long'] = 'Sorry, but the maximum characters allowed per message is <strong>%s</strong>.';
-$LNG['too_many_images'] = 'The maximum number of images allowed to be uploaded per message is <strong>%s</strong>, you tried to upload <strong>%s</strong> images.';
+$LNG['message_too_long'] = 'Es tut mir leid, aber die maximal erlaubten Zeichen pro Nachricht sind <strong>%s</strong>.';
+$LNG['too_many_images'] = 'Die maximale Anzahl der Bilder, die pro Nachricht hochgeladen werden dürfen, beträgt <strong>%s</strong>, Sie haben versucht, <strong>%s</strong> Bilder hochzuladen.';
 
 // USER PANEL
-$LNG['user_menu_general'] = 'General';
-$LNG['user_menu_security'] = 'Password';
-$LNG['user_menu_avatar'] = 'Profile Images';
-$LNG['user_menu_notifications'] = 'Notifications';
-$LNG['user_menu_privacy'] = 'Privacy';
-$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Delete Account';
-$LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Blocked Users';
+$LNG['user_menu_general'] = 'Allgemein';
+$LNG['user_menu_security'] = 'Passwort';
+$LNG['user_menu_avatar'] = 'Profilbild';
+$LNG['user_menu_notifications'] = 'Benachrichtigung';
+$LNG['user_menu_privacy'] = 'Datenschutz';
+$LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Account löschen';
+$LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Geblockte Benutzer';
 $LNG['other'] = 'Other';
 
-$LNG['user_ttl_general'] = 'General Settings';
-$LNG['user_ttl_security'] = 'Password Settings';
-$LNG['user_ttl_avatar'] = 'Profile Images Settings';
-$LNG['user_ttl_notifications'] = 'Notifications Settings';
-$LNG['user_ttl_privacy'] = 'Privacy Settings';
+$LNG['user_ttl_general'] = 'Allgemeine Einstellungen';
+$LNG['user_ttl_security'] = 'Passwort Einstellungen';
+$LNG['user_ttl_avatar'] = 'Profilbild Einstellungen';
+$LNG['user_ttl_notifications'] = 'Einstellungen für Benachrichtigungen';
+$LNG['user_ttl_privacy'] = 'Datenschutz Einstellungen';
 
-$LNG['blocked_desc'] = 'Blocked persons can no longer see things you post on your timeline, message or add you as a friend.';
-$LNG['delete_acc_desc'] = 'Your account will be permanently deleted along with all the related content of it.';
+$LNG['blocked_desc'] = 'Blockierte Personen können nicht mehr sehen, was Sie in Ihrer Timeline posten, Ihnen Nachrichten schicken oder Sie als Freund hinzufügen.';
+$LNG['delete_acc_desc'] = 'Ihr Konto wird zusammen mit allen zugehörigen Inhalten dauerhaft gelöscht.';
 
 $LNG['ttl_first_name'] = $LNG['first_name'] = 'First Name';
-$LNG['sub_first_name'] = 'Enter your first name';
+$LNG['sub_first_name'] = 'Geben Sie Ihren Vornamen ein';
 
 $LNG['ttl_last_name'] = $LNG['last_name'] = 'Last Name';
-$LNG['sub_last_name'] = 'Enter your last name';
+$LNG['sub_last_name'] = 'Geben Sie Ihren Nachnamen ein';
 
 $LNG['ttl_email'] = 'Email';
-$LNG['sub_email'] = 'Email will not be displayed';
+$LNG['sub_email'] = 'E-Mail wird nicht angezeigt';
 
 $LNG['address'] = 'Address';
-$LNG['sub_address'] = 'The address you live at';
+$LNG['sub_address'] = 'Die Adresse, an der Sie wohnen';
 
 $LNG['ttl_location'] = 'City';
-$LNG['sub_location'] = 'The city you live in';
+$LNG['sub_location'] = 'Die Stadt, in der Sie leben';
 
 $LNG['ttl_website'] = 'Website';
-$LNG['sub_website'] = 'Your website, blog or personal page';
+$LNG['sub_website'] = 'Ihre Website, Ihr Blog oder Ihre persönliche Seite';
 
 $LNG['ttl_gender'] = 'Gender';
-$LNG['sub_gender'] = 'Select your gender';
+$LNG['sub_gender'] = 'Wählen Sie Ihr Geschlecht';
 
 $LNG['interests'] = 'Interests';
-$LNG['sub_interested_in'] = 'Persons you\'re interested in';
+$LNG['sub_interested_in'] = 'Personen, an denen Sie interessiert sind';
 
 $LNG['ttl_country'] = 'Country';
-$LNG['sub_country'] = 'The country you live in';
+$LNG['sub_country'] = 'Das Land, in dem Sie leben';
 
 $LNG['ttl_work'] = 'Workplace';
-$LNG['sub_work'] = 'Enter the company name where you\'re working';
+$LNG['sub_work'] = 'Geben Sie den Namen des Unternehmens ein, in dem Sie arbeiten.';
 
 $LNG['ttl_school'] = 'School';
-$LNG['sub_school'] = 'Enter the school name you attended';
+$LNG['sub_school'] = 'Geben Sie den Namen der Schule an, die Sie besucht haben';
 
 $LNG['ttl_profile'] = 'Profile';
-$LNG['sub_profile'] = 'Profile visibility';
+$LNG['sub_profile'] = 'Sichtbarkeit des Profils';
 
 $LNG['ttl_messages'] = 'Message';
-$LNG['sub_messages'] = 'The default way of posting messages';
+$LNG['sub_messages'] = 'Die Standardmethode zum Einstellen von Nachrichten';
 
 $LNG['ttl_offline'] = 'Chat Status';
-$LNG['sub_offline'] = 'The visibility status for the Chat';
+$LNG['sub_offline'] = 'Der Sichtbarkeitsstatus für den Chat';
 
 $LNG['ttl_facebook'] = 'Facebook';
-$LNG['sub_facebook'] = 'Your facebook profile ID.';
+$LNG['sub_facebook'] = 'Deine Facebook-Profil-ID.';
 
 $LNG['ttl_twitter'] = 'Twitter';
-$LNG['sub_twitter'] = 'Your twitter profile ID.';
+$LNG['sub_twitter'] = 'Ihre Twitter-Profil-ID.';
 
 $LNG['ttl_bio'] = 'Bio';
-$LNG['sub_bio'] = 'About you (160 characters or less)';
+$LNG['sub_bio'] = 'Über Sie (160 Zeichen oder weniger)';
 
 $LNG['ttl_birthdate'] = 'Birth Date';
-$LNG['sub_birthdate'] = 'Select the date you were born';
+$LNG['sub_birthdate'] = 'Wählen Sie das Datum Ihrer Geburt';
 
-$LNG['ttl_upload_avatar'] = 'Upload the selected profile image';
-$LNG['ttl_delete_avatar'] = 'Delete your current profile image';
+$LNG['ttl_upload_avatar'] = 'Das ausgewählte Profilbild hochladen';
+$LNG['ttl_delete_avatar'] = 'Ihr aktuelles Profilbild löschen';
 
-$LNG['privacy'] = 'Privacy';
-$LNG['public'] = 'Public';
-$LNG['private'] = 'Private';
-$LNG['report'] = 'Report';
-$LNG['delete_message'] = 'Delete Message';
-$LNG['remove_user'] = 'Remove User';
+$LNG['privacy'] = 'Datenschutz';
+$LNG['public'] = 'Öffentlich';
+$LNG['private'] = 'Privat';
+$LNG['report'] = 'Melden';
+$LNG['delete_message'] = 'Nachricht löschen';
+$LNG['remove_user'] = 'Benutzer entfernen';
 
-$LNG['opt_offline_off'] = 'Online (when available)';
-$LNG['opt_offline_on'] = 'Always Offline';
+$LNG['opt_offline_off'] = 'Online (wenn verfügbar)';
+$LNG['opt_offline_on'] = 'Immer Offline';
 
-$LNG['no_gender'] = 'No Gender';
-$LNG['male'] = 'Male';
-$LNG['female'] = 'Female';
-$LNG['men'] = 'Men';
-$LNG['women'] = 'Women';
+$LNG['no_gender'] = 'Kein Geschlecht';
+$LNG['male'] = 'Männlich';
+$LNG['female'] = 'Weiblich';
+$LNG['men'] = 'Männer';
+$LNG['women'] = 'Frauen';
 
-$LNG['contact_information'] = 'Contact Information';
-$LNG['basic_information'] = 'Basic Information';
-$LNG['other_accounts'] = 'Other Accounts';
-$LNG['work_and_education'] = 'Work and Education';
+$LNG['contact_information'] = 'Kontaktinformationen';
+$LNG['basic_information'] = 'Grundlegende Informationen';
+$LNG['other_accounts'] = 'Andere Konten';
+$LNG['work_and_education'] = 'Arbeit und Ausbildung';
 
 $LNG['ttl_upload'] = 'Upload';
-$LNG['ttl_new_password'] = 'New Password';
-$LNG['sub_new_password'] = 'Enter a new password (at least 6 characters)';
-$LNG['ttl_repeat_password'] = 'Repeat Password';
-$LNG['sub_repeat_password'] = 'Repeat your new password';
-$LNG['ttl_current_password'] = 'Current Password';
-$LNG['sub_current_password'] = 'Enter your current password';
-$LNG['save_changes'] = 'Save Changes';
-$LNG['profile_images_desc'] = 'Click on the profile picture or cover to change them.';
-$LNG['confirm'] = 'Confirm';
-$LNG['approve'] = 'Approve';
-$LNG['requests'] = 'Requests';
-$LNG['blocked'] = 'Blocked';
-$LNG['remove'] = 'Remove';
-$LNG['decline'] = 'Decline';
-$LNG['confirmed'] = 'Confirmed';
-$LNG['declined'] = 'Declined';
-$LNG['make_admin'] = 'Make Admin';
-$LNG['remove_admin'] = 'Remove Admin';
-$LNG['default'] = 'Default';
-$LNG['make_default'] = 'Make Default';
+$LNG['ttl_new_password'] = 'Neues Passwort';
+$LNG['sub_new_password'] = 'Geben Sie ein neues Passwort ein (mindestens 6 Zeichen)';
+$LNG['ttl_repeat_password'] = 'Passwort wiederholen';
+$LNG['sub_repeat_password'] = 'Wiederholen Sie Ihr neues Passwort';
+$LNG['ttl_current_password'] = 'Aktuelles Passwort';
+$LNG['sub_current_password'] = 'Geben Sie Ihr aktuelles Passwort ein';
+$LNG['save_changes'] = 'Änderungen speichern';
+$LNG['profile_images_desc'] = 'Klicken Sie auf das Profilbild oder das Cover, um es zu ändern.';
+$LNG['confirm'] = 'Bestätigen Sie';
+$LNG['approve'] = 'Genehmigen Sie';
+$LNG['requests'] = 'Anfordern';
+$LNG['blocked'] = 'Blockiert';
+$LNG['remove'] = 'Entfernen';
+$LNG['decline'] = 'Ablehnen';
+$LNG['confirmed'] = 'Bestätigt';
+$LNG['declined'] = 'Abgelehnt';
+$LNG['make_admin'] = 'Admin machen';
+$LNG['remove_admin'] = 'Admin entfernen';
+$LNG['default'] = 'Standard';
+$LNG['make_default'] = 'Standard machen';
 
-$LNG['ttl_notificationl'] = 'Likes Notifications';
-$LNG['sub_notificationl'] = 'Display alert and notifications for <strong>Likes</strong>';
+$LNG['ttl_notificationl'] = 'Likes-Benachrichtigungen';
+$LNG['sub_notificationl'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Likes</strong>';
 
-$LNG['ttl_notificationc'] = 'Comments Notifications';
-$LNG['sub_notificationc'] = 'Display alert and notifications for <strong>Comments</strong>';
+$LNG['ttl_notificationc'] = 'Kommentare Benachrichtigungen';
+$LNG['sub_notificationc'] = 'Alarm und Benachrichtigungen für <strong>Kommentare</strong> anzeigen';
 
-$LNG['ttl_notifications'] = 'Messages Notifications';
-$LNG['sub_notifications'] = 'Display alert and notifications for <strong>Shared Messages</strong>';
+$LNG['ttl_notifications'] = 'Nachrichten-Benachrichtigungen';
+$LNG['sub_notifications'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Gemeinsame Nachrichten</strong>';
 
 $LNG['ttl_notificationd'] = 'Chat Notifications';
 $LNG['sub_notificationd'] = 'Display alert and notifications for <strong>Chats</strong>';
