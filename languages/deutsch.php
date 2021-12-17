@@ -43,7 +43,7 @@ $LNG['welcome_one'] = 'Verbinden';
 $LNG['welcome_two'] = 'Teilen';
 $LNG['welcome_three'] = 'Entdecken';
 $LNG['welcome_one_desc'] = 'Treten Sie in Kontakt mit Ihrer Familie, Ihren Freunden oder der Welt um Sie herum.';
-$LNG['welcome_two_desc'] = 'Teilen Sie wichtige Momenta Ihres Lebens mit den Menschen die Sie lieben.';
+$LNG['welcome_two_desc'] = 'Teilen Sie wichtige Momente Ihres Lebens mit den Menschen die Sie lieben.';
 $LNG['welcome_three_desc'] = 'Entdecken Sie neue Leute, knüpfen Sie neue Kontakte und schließen Sie neue Freundschaften.';
 $LNG['latest_users'] = 'Neueste Benutzer';
 
@@ -83,8 +83,8 @@ $LNG['user_created'] = 'Danke für Deine Anmeldung auf <strong>%s</strong>.<br><
 $LNG['recover_mail'] = 'Passwort-Wiederherstellung';
 $LNG['recover_content'] = 'Eine Passwortwiederherstellung wurde angefordert, wenn Sie diese Aktion nicht durchgeführt haben, ignorieren Sie bitte diese E-Mail. <br><br>Your Username: <strong>%s</strong><br>Your Reset Key: <strong>%s</strong><br><br>You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>';
 $LNG['email_hello'] = 'Hallo <strong>%s</strong>,<br><br>';
-$LNG['email_unsub'] = '<br><br><span>This message was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
-$LNG['email_copy'] = '<br><br><span>Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
+$LNG['email_unsub'] = '<br><br><span>Diese Nachricht wurde automatisch gesendet, wenn du in Zukunft keine Mails von <strong>%s</strong> erhalten möchtest, kannst Du die Benachrichtungen hier <a href="%s">abbestellen</a>.</span>';
+$LNG['email_copy'] = '<br><br><span>Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Alle Rechte vorbehalten.';
 $LNG['ttl_comment_email'] = '%s kommentierte Deine Nachricht';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has commented on your <strong><a href="%s">message.</a></strong>'.$LNG['email_unsub'];
 $LNG['ttl_like_email'] = '%s hat Deine Nachricht geliked';
@@ -103,14 +103,14 @@ $LNG['ttl_suspended_account_mail'] = 'Dein Konto wurde gesperrt';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Dein Konto wurde gesperrt. Wenn Du glaubst, dass dies ein Fehler war, kontaktiere uns bitte.'.$LNG['email_copy'];
 $LNG['ttl_confirm_email'] = 'Aktiviere Deinen Account';
 $LNG['confirm_email'] = $LNG['email_hello'].'Thank you for joining <strong>%s</strong>. Finish your registration by <a href="%s" target="_blank">clicking here</a>.'.$LNG['email_copy'];
-$LNG['ttl_mention_email'] = '%s mentioned you in a message';
-$LNG['ttl_mention_c_email'] = '%s mentioned you in a comment';
-$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has mentioned you in a <strong><a href="%s">message.</a></strong>'.$LNG['email_unsub'];
-$LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has mentioned you in a <strong><a href="%s">comment.</a></strong>'.$LNG['email_unsub'];
+$LNG['ttl_mention_email'] = '%s erwähnte dich in einer Nachricht';
+$LNG['ttl_mention_c_email'] = '%s erwähnte Dich in einem Kommentar';
+$LNG['mention_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> hat dich erwähnt in einer<strong><a href="%s">Nachricht.</a></strong>'.$LNG['email_unsub'];
+$LNG['mention_c_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> hat Dich erwähnt in einem <strong><a href="%s">Kommentar.</a></strong>'.$LNG['email_unsub'];
 
 // PHP MODULES
-$LNG['openssl_error'] = 'You must enable <strong>OpenSSL</strong> extension on the server';
-$LNG['curl_error'] = 'Is recommended that <strong>cURL</strong> extension is enabled on the server';
+$LNG['openssl_error'] = 'Du musst die <strong>OpenSSL</strong> Erweiterung auf dem Server aktivieren';
+$LNG['curl_error'] = 'Es wird empfohlen, dass die <strong>cURL</strong>-Erweiterung auf dem Server aktiviert ist.';
 
 // ADMIN PANEL
 $LNG['general_link'] = 'Allgemein';
@@ -120,10 +120,10 @@ $LNG['registration'] = 'Anmedlung';
 $LNG['limits'] = 'Grenzwerte';
 $LNG['emails'] = 'Emails';
 
-$LNG['theme_install'] = 'To install a new theme, upload it on the <strong>themes</strong> folder';
-$LNG['plugin_install'] = 'To install a new plugin, upload it on the <strong>plugins</strong> folder';
-$LNG['language_install'] = 'To install a new language, upload it on the <strong>languages</strong> folder';
-$LNG['author_title'] = 'Visit the author homepage';
+$LNG['theme_install'] = 'Um ein neues Theme zu installieren, lade es in den <strong>themes</strong> Ordner';
+$LNG['plugin_install'] = 'Um eine neues Plugin zu installieren. lade es in den <strong>plugins</strong> Ordner';
+$LNG['language_install'] = 'Um eine neue Sprache zu installieren, lade es in den <strong>languages</strong> Ordner';
+$LNG['author_title'] = 'Besuche die Auto-Homepage';
 $LNG['version'] = 'Version';
 $LNG['active'] = 'Aktiv';
 $LNG['activate'] = 'Aktivieren';
@@ -155,7 +155,7 @@ $LNG['comment_wrong'] = 'Es ist ein Fehler aufgetreten. Bitte aktualisieren Sie 
 $LNG['comment_too_long'] = 'Tut mir leid, die maximal erlaubten Zeichen pro Kommentar sind <strong>%s</strong>.';
 $LNG['comment_error'] = 'Entschuldigung, wir konnten den Kommentar nicht veröffentlichen. Bitte aktualisieren Sie die Seite und versuchen Sie es erneut.';
 $LNG['message_private'] = 'Sorry, this message is private, only the author of the message can see it.';
-$LNG['message_private_ttl'] = 'Private Message';
+$LNG['message_private_ttl'] = 'Private Nachricht';
 $LNG['message_semi_private'] = 'Sorry, diese Nachricht ist privat, nur der Autor der Nachricht kann sie sehen.';
 $LNG['message_semi_private_ttl'] = 'Private Nachricht';
 $LNG['login_to_lcs'] = 'Einloggen, um zu liken, zu kommentieren oder zu teilen';
@@ -165,7 +165,7 @@ $LNG['share'] = 'Teilen';
 $LNG['camera'] = 'Camera';
 $LNG['capture'] = 'Capture';
 $LNG['send'] = 'Senden';
-$LNG['shared_success'] = 'The post has been successfully shared on your <a href="%s" rel="loadpage"><strong>timeline</strong></a>.';
+$LNG['shared_success'] = 'Der Post wurde erfolgreich in der <a href="%s" rel="loadpage"><strong>Timeline</strong></a> geteilt.';
 $LNG['no_shared'] = 'Es tut mir leid, aber diese Nachricht kann nicht weitergegeben werden.';
 $LNG['share_desc'] = 'Sind Sie sicher, dass Sie diese Nachricht in Ihrer Timeline teilen möchten?';
 $LNG['cancel'] = 'Abbrechen';
@@ -190,8 +190,8 @@ $LNG['rep_comment'] = 'Kommentar';
 // SIDEBAR
 $LNG['groups'] = 'Gruppen';
 $LNG['events'] = 'Veranstaltungen';
-$LNG['archive'] = 'Archive';
-$LNG['recent'] = 'Recent';
+$LNG['archive'] = 'Archiv';
+$LNG['recent'] = 'Neueste';
 $LNG['all_events'] = 'Alle Veranstaltungen';
 $LNG['sidebar_map'] = 'Places';
 $LNG['sidebar_food'] = 'Mahlzeiten';
@@ -204,27 +204,27 @@ $LNG['sidebar_pages'] = 'Seiten';
 $LNG['sidebar_groups'] = 'Gruppen';
 $LNG['sidebar_pokes'] = 'Pokes';
 $LNG['sidebar_mentions'] = 'Erwähnungen';
-$LNG['all_time'] = 'All time';
+$LNG['all_time'] = 'Alle Zeiten';
 $LNG['friends'] = 'Freunde';
 $LNG['mutual'] = 'Mutual';
 $LNG['welcome'] = 'Willkommen';
 $LNG['filter_age'] = 'Alter';
 $LNG['all_ages'] = 'Alle Alter';
 $LNG['filter_gender'] = 'Geschlecht';
-$LNG['sidebar_male'] = 'Male';
-$LNG['sidebar_female'] = 'Female';
-$LNG['all_genders'] = 'All genders';
-$LNG['online_friends'] = 'Online Friends';
+$LNG['sidebar_male'] = 'Männlich';
+$LNG['sidebar_female'] = 'Weiblich';
+$LNG['all_genders'] = 'Alle Geschlechter';
+$LNG['online_friends'] = 'Online Freunde';
 $LNG['sidebar_likes'] = 'Likes';
-$LNG['sidebar_comments'] = 'Comments';
-$LNG['sidebar_friendships'] = 'Friendships';
+$LNG['sidebar_comments'] = 'Komentare';
+$LNG['sidebar_friendships'] = 'Freundschaften';
 $LNG['sidebar_chats'] = 'Chats';
-$LNG['sidebar_birthdays'] = 'Birthdays';
-$LNG['sidebar_suggestions'] = 'Friends Suggestions';
-$LNG['sidebar_trending'] = 'Trending topics';
-$LNG['sidebar_friends_activity'] = 'Friends Activity';
-$LNG['friends_birthdays'] = 'Birthdays';
-$LNG['sidebar_people'] = 'People';
+$LNG['sidebar_birthdays'] = 'Geburtstage';
+$LNG['sidebar_suggestions'] = 'Freundesvorschläge';
+$LNG['sidebar_trending'] = 'Aktuelle Themen';
+$LNG['sidebar_friends_activity'] = 'Aktivität der Freunde';
+$LNG['friends_birthdays'] = 'Geburtstage';
+$LNG['sidebar_people'] = 'Menschen';
 $LNG['sidebar_tag'] = 'Hashtags';
 
 // MESSAGES / CHAT
@@ -235,17 +235,17 @@ $LNG['blocked_user'] = 'Die Nachricht konnte nicht gesendet werden. Sie haben <s
 $LNG['chat_self'] = 'Leider können wir keine Chat-Nachrichten an Sie selbst senden.';
 $LNG['chat_no_user'] = 'Sie müssen einen Benutzer auswählen, mit dem Sie chatten möchten.';
 $LNG['view_more_conversations'] = 'Mehr Konversationen anzeigen';
-$LNG['block'] = 'Block';
-$LNG['unblock'] = 'Unblock';
+$LNG['block'] = 'Blockieren';
+$LNG['unblock'] = 'Blockierung aufheben';
 $LNG['poke'] = 'Poke';
 $LNG['poked'] = 'Poked';
-$LNG['conversation'] = 'Conversation';
+$LNG['conversation'] = 'Unterhaltung';
 $LNG['start_conversation'] = 'Sie können ein Gespräch beginnen, indem Sie eine Person aus Ihrer Freundesliste auswählen.';
 $LNG['send_message'] = 'Nachricht senden';
 
 // MESSAGE FORM
 $LNG['label_food'] = 'Hinzufügen, was Sie gegessen haben';
-$LNG['label_game'] = 'Add a played game';
+$LNG['label_game'] = 'Ein gespieltes Spiel hinzufügen';
 $LNG['label_map'] = 'Einen Ort hinzufügen';
 $LNG['label_video'] = 'Einen gesehenen Film hinzufügen';
 $LNG['label_music'] = 'Einen gehörten Song hinzufügen';
@@ -268,7 +268,7 @@ $LNG['user_menu_notifications'] = 'Benachrichtigung';
 $LNG['user_menu_privacy'] = 'Datenschutz';
 $LNG['user_menu_delete'] = $LNG['user_ttl_delete'] = 'Account löschen';
 $LNG['user_menu_blocked'] = $LNG['user_ttl_blocked'] = 'Geblockte Benutzer';
-$LNG['other'] = 'Other';
+$LNG['other'] = 'Andere';
 
 $LNG['user_ttl_general'] = 'Allgemeine Einstellungen';
 $LNG['user_ttl_security'] = 'Passwort Einstellungen';
@@ -279,7 +279,7 @@ $LNG['user_ttl_privacy'] = 'Datenschutz Einstellungen';
 $LNG['blocked_desc'] = 'Blockierte Personen können nicht mehr sehen, was Sie in Ihrer Timeline posten, Ihnen Nachrichten schicken oder Sie als Freund hinzufügen.';
 $LNG['delete_acc_desc'] = 'Ihr Konto wird zusammen mit allen zugehörigen Inhalten dauerhaft gelöscht.';
 
-$LNG['ttl_first_name'] = $LNG['first_name'] = 'Vorame';
+$LNG['ttl_first_name'] = $LNG['first_name'] = 'Vorname';
 $LNG['sub_first_name'] = 'Geben Sie Ihren Vornamen ein';
 
 $LNG['ttl_last_name'] = $LNG['last_name'] = 'Nachname';
@@ -291,7 +291,7 @@ $LNG['sub_email'] = 'E-Mail wird nicht angezeigt';
 $LNG['address'] = 'Addresse';
 $LNG['sub_address'] = 'Die Adresse, an der Sie wohnen';
 
-$LNG['ttl_location'] = 'stadt';
+$LNG['ttl_location'] = 'Stadt';
 $LNG['sub_location'] = 'Die Stadt, in der Sie leben';
 
 $LNG['ttl_website'] = 'Website';
@@ -330,7 +330,7 @@ $LNG['sub_twitter'] = 'Ihre Twitter-Profil-ID.';
 $LNG['ttl_bio'] = 'Bio';
 $LNG['sub_bio'] = 'Über Dich (160 Zeichen oder weniger)';
 
-$LNG['ttl_birthdate'] = 'Birth Date';
+$LNG['ttl_birthdate'] = 'Geburtsdatum';
 $LNG['sub_birthdate'] = 'Wählen Sie das Datum Ihrer Geburt';
 
 $LNG['ttl_upload_avatar'] = 'Das ausgewählte Profilbild hochladen';
@@ -379,32 +379,32 @@ $LNG['remove_admin'] = 'Admin entfernen';
 $LNG['default'] = 'Standard';
 $LNG['make_default'] = 'Standard machen';
 
-$LNG['ttl_notificationl'] = 'Likes-Benachrichtigungen';
+$LNG['ttl_notificationl'] = 'Likes-Info';
 $LNG['sub_notificationl'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Likes</strong>';
 
-$LNG['ttl_notificationc'] = 'Kommentare Benachrichtigungen';
+$LNG['ttl_notificationc'] = 'Kommentar Info';
 $LNG['sub_notificationc'] = 'Alarm und Benachrichtigungen für <strong>Kommentare</strong> anzeigen';
 
-$LNG['ttl_notifications'] = 'Nachrichten Benachrichtigungen';
+$LNG['ttl_notifications'] = 'Nachrichten Info';
 $LNG['sub_notifications'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Gemeinsame Nachrichten</strong>';
 
-$LNG['ttl_notificationd'] = 'Chat Benachrichtigungen';
+$LNG['ttl_notificationd'] = 'Chat Info';
 $LNG['sub_notificationd'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Chats</strong>';
 
-$LNG['ttl_notificationf'] = 'Freunde Benachrichtigungen';
+$LNG['ttl_notificationf'] = 'Freunde Info';
 $LNG['sub_notificationf'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Bestätigte Freundschaften</strong>';
 
-$LNG['ttl_notificationm'] = 'Erwähnungs Benachrichtigungen';
+$LNG['ttl_notificationm'] = 'Erwähnungs Info';
 $LNG['sub_notificationm'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Erwähnungen</strong>';
 
-$LNG['ttl_notificationx'] = 'Seiten Benachrichtigungen';
+$LNG['ttl_notificationx'] = 'Seiten Info';
 $LNG['sub_notificationx'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Likes einer Seite</strong> invitations';
 
-$LNG['ttl_notificationg'] = 'Gruppen Benachrichtigungen';
+$LNG['ttl_notificationg'] = 'Gruppen Info';
 $LNG['sub_notificationg'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Gruppen Einladungen</strong>';
 
-$LNG['ttl_notificationp'] = 'Pokes Notifications';
-$LNG['sub_notificationp'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Pokes</strong>';
+$LNG['ttl_notificationp'] = 'Stubser Info';
+$LNG['sub_notificationp'] = 'Anzeige von Warnungen und Benachrichtigungen für <strong>Stubser</strong>';
 
 $LNG['ttl_sound_nn'] = 'Benachrichtigungston';
 $LNG['sub_sound_nn'] = 'Einen Ton abspielen, wenn eine neue Benachrichtigung eingeht';
@@ -463,7 +463,7 @@ $LNG['title'] = 'Titel';
 $LNG['admin_sub_title'] = 'Der Seitentitel';
 
 $LNG['logo'] = 'Logo';
-$LNG['admin_sub_logo'] = 'das Seiten Logo (PNG format)';
+$LNG['admin_sub_logo'] = 'Das Seiten Logo (PNG format)';
 
 $LNG['admin_ttl_captcha'] = 'Captcha';
 $LNG['admin_sub_captcha'] = 'Aktivieren Sie Captcha bei der Registrierung';
@@ -599,44 +599,44 @@ $LNG['admin_ttl_mail'] = 'Email';
 $LNG['admin_ttl_username'] = 'Benutzername';
 $LNG['admin_ttl_id'] = 'ID'; // As in user ID
 
-$LNG['admin_ttl_email_comment'] = 'Email on Comment';
-$LNG['admin_sub_email_comment'] = 'Enable sending emails when someone comments to a message (overrides user\'s settings)';
+$LNG['admin_ttl_email_comment'] = 'Email bei einem Kommentar';
+$LNG['admin_sub_email_comment'] = 'Aktivieren Sie das Versenden von E-Mails, wenn jemand eine Nachricht kommentiert (überschreibt die Einstellungen vom Benutzer)';
 
-$LNG['admin_ttl_email_like'] = 'Email on Like';
-$LNG['admin_sub_email_like'] = 'Enable sending emails when someone likes a message (overrides user\'s settings)';
+$LNG['admin_ttl_email_like'] = 'Email bei einem Like';
+$LNG['admin_sub_email_like'] = 'Aktivieren Sie den Versand von E-Mails, wenn jemandem eine Nachricht gefällt (overrides user\'s settings)';
 
-$LNG['admin_ttl_email_mention'] = 'Email on Mention';
-$LNG['admin_sub_email_mention'] = 'Enable sending emails when someone mentions someone else (overrides user\'s settings)';
+$LNG['admin_ttl_email_mention'] = 'Email bei einer erwähnung';
+$LNG['admin_sub_email_mention'] = 'Aktivieren Sie den Versand von E-Mails, wenn jemand eine andere Person erwähnt (overrides user\'s settings)';
 
-$LNG['admin_ttl_email_new_friend'] = 'Email on Friendships';
-$LNG['admin_sub_email_new_friend'] = 'Enable sending emails when someone sends or confirms a friend request (overrides user\'s settings)';
+$LNG['admin_ttl_email_new_friend'] = 'Email bei einer Freundschaftsanfrage';
+$LNG['admin_sub_email_new_friend'] = 'Aktivieren Sie den Versand von E-Mails, wenn jemand eine Freundschaftsanfrage sendet oder bestätigt (overrides user\'s settings)';
 
-$LNG['admin_ttl_email_page'] = 'Email Page Invite';
-$LNG['admin_sub_email_page'] = 'Enable sending emails when someone sends a page like invitation (overrides user\'s settings)';
+$LNG['admin_ttl_email_page'] = 'Email bei einer Seiteneinladung';
+$LNG['admin_sub_email_page'] = 'Aktivieren Sie den Versand von E-Mails, wenn jemand eine "Gefällt mir"-Einladung sendet (overrides user\'s settings)';
 
-$LNG['admin_ttl_email_group'] = 'Email Group Invite';
-$LNG['admin_sub_email_group'] = 'Enable sending emails when someone sends a group invitation (overrides user\'s settings)';
+$LNG['admin_ttl_email_group'] = 'Email bei einer gruppeneinladung';
+$LNG['admin_sub_email_group'] = 'Aktivieren Sie das Senden von E-Mails, wenn jemand eine Gruppeneinladung sendet (overrides user\'s settings)';
 
-$LNG['admin_ttl_ilimit'] = 'Images (Messages)';
-$LNG['admin_sub_ilimit'] = 'The maximum images allowed to be uploaded per message';
+$LNG['admin_ttl_ilimit'] = 'Bilder (Nachrichten)';
+$LNG['admin_sub_ilimit'] = 'Die maximale Anzahl der Bilder, die pro Nachricht hochgeladen werden können';
 
-$LNG['admin_ttl_sperpage'] = 'Users';
-$LNG['admin_sub_sperpage'] = 'Number of users to be displayed per page (Profile Friends, Group Users)';
+$LNG['admin_ttl_sperpage'] = 'Benutzer';
+$LNG['admin_sub_sperpage'] = 'Anzahl der Benutzer, die pro Seite angezeigt werden sollen (Freunde, Gruppenbenutzer)';
 
 $LNG['admin_ttl_aperip'] = 'Accounts';
-$LNG['admin_sub_aperip'] = 'Number of accounts allowed to register per IP (0 for unlimited)';
+$LNG['admin_sub_aperip'] = 'Anzahl der Konten, die pro IP registriert werden können (0 für unbegrenzt)';
 
-$LNG['admin_ttl_ronline'] = 'Online Friends';
-$LNG['admin_sub_ronline'] = 'Number of online friends to be displayed on the Feed/Subscriptions page (sidebar).';
+$LNG['admin_ttl_ronline'] = 'Online Freunde';
+$LNG['admin_sub_ronline'] = 'Anzahl der Online-Freunde, die auf der Seite Feed/Abonnements (Seitenleiste) angezeigt werden sollen.';
 
-$LNG['admin_ttl_nperwidget'] = 'Dropdown Notifications';
-$LNG['admin_sub_nperwidget'] = 'Number of notifications to be shown per category (likes, comments, messages, shares, friend requests)';
+$LNG['admin_ttl_nperwidget'] = 'Dropdown-Benachrichtigungen';
+$LNG['admin_sub_nperwidget'] = 'Anzahl der Benachrichtigungen, die pro Kategorie angezeigt werden sollen (Likes, Kommentare, Nachrichten, Shares, Freundschaftsanfragen)';
 
 $LNG['admin_ttl_uperpage'] = 'Admin';
-$LNG['admin_sub_uperpage'] = 'Number of users per page (Manage Sections)';
+$LNG['admin_sub_uperpage'] = 'Anzahl der Benutzer pro Seite (Sektionen verwalten)';
 
-$LNG['admin_sub_verified'] = 'Verified user profile by default? (Not recommended)';
-$LNG['admin_sub_tracking'] = 'The analytics tracking code';
+$LNG['admin_sub_verified'] = 'Geprüftes Mitglied als Standard? (Nicht empfohlen)';
+$LNG['admin_sub_tracking'] = 'Der Tracking-Code für die Analyse';
 
 $LNG['join_date'] = 'Beitrittsdatum';
 $LNG['user_group'] = 'Benutzergruppe';
@@ -657,14 +657,14 @@ $LNG['sub_public_page'] = 'Anzeige der Seite in Fußzeile und Seitenleiste';
 $LNG['sub_page_content'] = 'Der Seiteninhalt (unterstützt übersetzbare Zeichenfolgen)';
 $LNG['url_exists'] = 'Diese Seiten-URL existiert bereits';
 
-$LNG['per_page'] = '/ page';
+$LNG['per_page'] = '/ seite';
 $LNG['per_ip'] = '/ IP';
 $LNG['second'] = 'sekunde';
 $LNG['seconds'] = 'sekunden';
 $LNG['minute'] = 'minute';
 $LNG['minutes'] = 'minuten';
 $LNG['hour'] = 'stunde';
-$LNG['recommended'] = 'recommended';
+$LNG['recommended'] = 'empfohlen';
 $LNG['edit_user'] = 'Editiere benutzer';
 $LNG['username_to_edit'] = 'Benutzername';
 $LNG['username_to_edit_sub'] = 'Geben Sie den Benutzernamen ein, den Sie bearbeiten möchten';
@@ -673,8 +673,8 @@ $LNG['group_to_edit_sub'] = 'Geben Sie den Gruppennamen ein, den Sie bearbeiten 
 $LNG['page_to_edit'] = 'Seitenname';
 $LNG['page_to_edit_sub'] = 'Geben Sie den Namen der Seite ein, die Sie bearbeiten möchten';
 $LNG['chat_smiles'] = 'Emoticons hinzufügen';
-$LNG['chat_picture'] = 'Upload image';
-$LNG['chat_camera'] = 'Take a photo';
+$LNG['chat_picture'] = 'Bild hochladen';
+$LNG['chat_camera'] = 'Nimm ein Photo auf';
 
 // STATS
 $LNG['likes'] = 'Likes';
