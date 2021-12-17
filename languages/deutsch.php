@@ -3,10 +3,10 @@
 $name = 'Deutsch';
 
 // Language Author
-$author = 'xxxxxxx';
+$author = 'vip3r78';
 
 // Language URL
-$url = 'https://';
+$url = 'https://www.freenetworx.de';
 
 $LNG['lang_dir'] = 'ltr';
 
