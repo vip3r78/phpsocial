@@ -202,7 +202,7 @@ $LNG['sidebar_music'] = 'Music';
 $LNG['sidebar_shared'] = 'Geteilt';
 $LNG['sidebar_pages'] = 'Seiten';
 $LNG['sidebar_groups'] = 'Gruppen';
-$LNG['sidebar_pokes'] = 'Pokes';
+$LNG['sidebar_pokes'] = 'Stubser';
 $LNG['sidebar_mentions'] = 'Erwähnungen';
 $LNG['all_time'] = 'Alle Zeiten';
 $LNG['friends'] = 'Freunde';
@@ -237,8 +237,8 @@ $LNG['chat_no_user'] = 'Sie müssen einen Benutzer auswählen, mit dem Sie chatt
 $LNG['view_more_conversations'] = 'Mehr Konversationen anzeigen';
 $LNG['block'] = 'Blockieren';
 $LNG['unblock'] = 'Blockierung aufheben';
-$LNG['poke'] = 'Poke';
-$LNG['poked'] = 'Poked';
+$LNG['poke'] = 'Stubsen';
+$LNG['poked'] = 'Angestubst';
 $LNG['conversation'] = 'Unterhaltung';
 $LNG['start_conversation'] = 'Sie können ein Gespräch beginnen, indem Sie eine Person aus Ihrer Freundesliste auswählen.';
 $LNG['send_message'] = 'Nachricht senden';
@@ -452,7 +452,7 @@ $LNG['admin_ttl_manage_pages']		= $LNG['admin_menu_manage_pages']	= 'Seiten verw
 $LNG['admin_ttl_manage_groups']		= $LNG['admin_menu_manage_groups'] 	= 'Gruppen verwalten';
 $LNG['admin_ttl_manage_reports']	= $LNG['admin_menu_manage_reports'] = 'Reports verwalten';
 $LNG['admin_ttl_manage_ads']		= $LNG['admin_menu_manage_ads'] 	= 'Werbung verwalten';
-$LNG['admin_ttl_info_pages']		= $LNG['admin_menu_info_pages'] 	= 'Info seiten';
+$LNG['admin_ttl_info_pages']		= $LNG['admin_menu_info_pages'] 	= 'Info Seiten';
 
 $LNG['list_users'] = 'Alle benutzer';
 $LNG['list_moderators'] = 'Moderatoren';
@@ -731,7 +731,7 @@ $LNG['new_like_notification'] = '<a href="%s" rel="loadpage">%s</a> liked Deine 
 $LNG['new_like_c_notification'] = '<a href="%s" rel="loadpage">%s</a> liked Deinen <a href="%s" rel="loadpage">Kommentar</a>';
 $LNG['new_like_mention'] = '<a href="%s" rel="loadpage">%s</a> hat Dich erwähnt in einer <a href="%s" rel="loadpage">Nachricht</a>';
 $LNG['new_like_c_mention'] = '<a href="%s" rel="loadpage">%s</a> hat Dich erwähnt in einem <a href="%s" rel="loadpage">Kommentar</a>';
-$LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> poked you';
+$LNG['new_poke_notification'] = '<a href="%s" rel="loadpage">%s</a> hat Dich angestubst';
 $LNG['new_comment_notification'] = '<a href="%s" rel="loadpage">%s</a> hat kommentiert in Deiner <a href="%s" rel="loadpage">Nachricht</a>';
 $LNG['new_shared_notification'] = '<a href="%s" rel="loadpage">%s</a> hat Deine <a href="%s" rel="loadpage">Nachricht</a> geteilt';
 $LNG['new_page_notification'] = '<a href="%s" rel="loadpage">%s</a> hat dich eingeladen <a href="%s" rel="loadpage">%s</a> seite zu liken';
