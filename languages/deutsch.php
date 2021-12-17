@@ -430,7 +430,7 @@ $LNG['sub_email_page'] = 'Erhalten Sie E-Mails, wenn jemand Sie einlädt, eine S
 $LNG['ttl_email_group'] = 'Email bei Gruppen Einladung';
 $LNG['sub_email_group'] = 'Erhalten Sie E-Mails, wenn Ihnen jemand eine Gruppeneinladung sendet';
 
-$LNG['user_ttl_sidebar'] = 'einstellungen';
+$LNG['user_ttl_sidebar'] = 'Einstellungen';
 
 // ADMIN PANEL
 $LNG['admin_login'] = 'Admin Login';
@@ -448,7 +448,7 @@ $LNG['admin_ttl_languages']			= $LNG['admin_menu_languages'] 		= 'Sprachen';
 $LNG['admin_ttl_stats'] 			= $LNG['admin_menu_stats'] 			= 'Statistiken';
 $LNG['admin_ttl_security'] 			= $LNG['admin_menu_security'] 		= 'Passwort';
 $LNG['admin_ttl_users'] 			= $LNG['admin_menu_users'] 			= 'Benutzer verwalten';
-$LNG['admin_ttl_manage_pages']		= $LNG['admin_menu_manage_pages']	= 'seiten verwalten';
+$LNG['admin_ttl_manage_pages']		= $LNG['admin_menu_manage_pages']	= 'Seiten verwalten';
 $LNG['admin_ttl_manage_groups']		= $LNG['admin_menu_manage_groups'] 	= 'Gruppen verwalten';
 $LNG['admin_ttl_manage_reports']	= $LNG['admin_menu_manage_reports'] = 'Reports verwalten';
 $LNG['admin_ttl_manage_ads']		= $LNG['admin_menu_manage_ads'] 	= 'Werbung verwalten';
@@ -670,7 +670,7 @@ $LNG['username_to_edit'] = 'Benutzername';
 $LNG['username_to_edit_sub'] = 'Geben Sie den Benutzernamen ein, den Sie bearbeiten möchten';
 $LNG['group_to_edit'] = 'Gruppen Name';
 $LNG['group_to_edit_sub'] = 'Geben Sie den Gruppennamen ein, den Sie bearbeiten möchten';
-$LNG['page_to_edit'] = 'seitenname';
+$LNG['page_to_edit'] = 'Seitenname';
 $LNG['page_to_edit_sub'] = 'Geben Sie den Namen der Seite ein, die Sie bearbeiten möchten';
 $LNG['chat_smiles'] = 'Emoticons hinzufügen';
 $LNG['chat_picture'] = 'Upload image';
@@ -920,8 +920,8 @@ $LNG['no'] = 'Nein';
 $LNG['none'] = 'Keine';
 $LNG['pages'] = 'Seiten';
 $LNG['search_for_people'] = 'suche Menschen, #hashtags';
-$LNG['search_pages'] = ', @pages';
-$LNG['search_groups'] = ', !groups';
+$LNG['search_pages'] = ', @seiten';
+$LNG['search_groups'] = ', !gruppen';
 $LNG['new_message'] = 'Neue Nachricht';
 $LNG['privacy_policy'] = 'Datenschutzbestimmungen';
 $LNG['terms_of_use'] = 'Nutzungsbedingungen';
@@ -938,7 +938,7 @@ $LNG['agreement_required'] = 'Um sich zu registrieren, müssen Sie zunächst die
 // EMOJIS
 $LNG['emoji_people'] = 'Smiley';
 $LNG['emoji_animals'] = 'Tiere und Natur';
-$LNG['emoji_food'] = 'essen und Trinken';
+$LNG['emoji_food'] = 'Essen und Trinken';
 $LNG['emoji_activities'] = 'Aktivitäten';
 $LNG['emoji_travel'] = 'Reisen und Plätze';
 $LNG['emoji_objects'] = 'Objekte';
@@ -946,21 +946,21 @@ $LNG['emoji_symbols'] = 'Symbole';
 
 // TIME
 $LNG['just_now'] = 'gerade eben';
-$LNG['ta_second'] = 'a second';
-$LNG['ta_seconds'] = '%d seconds';
-$LNG['ta_minute'] = 'a minute';
-$LNG['ta_minutes'] = '%d minutes';
-$LNG['ta_hour'] = 'an hour';
-$LNG['ta_hours'] = '%d hours';
-$LNG['ta_day'] = 'a day';
-$LNG['ta_days'] = '%d days';
-$LNG['ta_week'] = 'a week';
-$LNG['ta_weeks'] = '%d weeks';
-$LNG['ta_month'] = 'a month';
-$LNG['ta_months'] = '%d months';
-$LNG['ta_year'] = 'a year';
-$LNG['ta_years'] = '%d years';
-$LNG['ago'] = 'ago';
+$LNG['ta_second'] = 'einer Sekunde';
+$LNG['ta_seconds'] = 'vor %d Sekunden';
+$LNG['ta_minute'] = 'einer Minute';
+$LNG['ta_minutes'] = 'vor %d Minuten';
+$LNG['ta_hour'] = 'einer Stunde';
+$LNG['ta_hours'] = 'vor %d Stunden';
+$LNG['ta_day'] = 'einem Tag';
+$LNG['ta_days'] = 'vor %d Tagen';
+$LNG['ta_week'] = 'einer Woche';
+$LNG['ta_weeks'] = 'vor %d Wochen';
+$LNG['ta_month'] = 'ein Monat';
+$LNG['ta_months'] = 'vor %d Monaten';
+$LNG['ta_year'] = 'ein Jahr';
+$LNG['ta_years'] = 'vor %d Jahren';
+$LNG['ago'] = 'vor';
 
 // MONTHS
 $LNG['month'] = 'Monat';
