@@ -946,19 +946,19 @@ $LNG['emoji_symbols'] = 'Symbole';
 
 // TIME
 $LNG['just_now'] = 'gerade eben';
-$LNG['ta_second'] = 'einer Sekunde';
+$LNG['ta_second'] = 'vor einer Sekunde';
 $LNG['ta_seconds'] = 'vor %d Sekunden';
-$LNG['ta_minute'] = 'einer Minute';
+$LNG['ta_minute'] = 'vor einer Minute';
 $LNG['ta_minutes'] = 'vor %d Minuten';
-$LNG['ta_hour'] = 'einer Stunde';
+$LNG['ta_hour'] = 'vor einer Stunde';
 $LNG['ta_hours'] = 'vor %d Stunden';
-$LNG['ta_day'] = 'einem Tag';
+$LNG['ta_day'] = 'vor einem Tag';
 $LNG['ta_days'] = 'vor %d Tagen';
-$LNG['ta_week'] = 'einer Woche';
+$LNG['ta_week'] = 'vor einer Woche';
 $LNG['ta_weeks'] = 'vor %d Wochen';
-$LNG['ta_month'] = 'ein Monat';
+$LNG['ta_month'] = 'vor einem Monat';
 $LNG['ta_months'] = 'vor %d Monaten';
-$LNG['ta_year'] = 'ein Jahr';
+$LNG['ta_year'] = 'vor einem Jahr';
 $LNG['ta_years'] = 'vor %d Jahren';
 $LNG['ago'] = '';
 
