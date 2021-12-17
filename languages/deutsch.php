@@ -116,7 +116,7 @@ $LNG['curl_error'] = 'Es wird empfohlen, dass die <strong>cURL</strong>-Erweiter
 $LNG['general_link'] = 'Allgemein';
 $LNG['security_link'] = 'Sicherheit';
 $LNG['manage_users'] = 'Benutzer verwalten';
-$LNG['registration'] = 'Anmedlung';
+$LNG['registration'] = 'Anmeldung';
 $LNG['limits'] = 'Grenzwerte';
 $LNG['emails'] = 'Emails';
 
