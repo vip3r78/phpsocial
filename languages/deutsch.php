@@ -343,7 +343,7 @@ $LNG['report'] = 'Melden';
 $LNG['delete_message'] = 'Nachricht löschen';
 $LNG['remove_user'] = 'Benutzer entfernen';
 
-$LNG['opt_offline_off'] = 'Online (wenn verfügbar)';
+$LNG['opt_offline_off'] = 'Online (verfügbar)';
 $LNG['opt_offline_on'] = 'Immer Offline';
 
 $LNG['no_gender'] = 'Kein Geschlecht';
