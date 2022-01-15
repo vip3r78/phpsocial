@@ -740,14 +740,14 @@ $LNG['new_friend_notification'] = '<a href="%s" rel="loadpage">%s</a> akzeptiert
 $LNG['new_chat_notification'] = '<a href="%s" rel="loadpage">%s</a> sent you a <span class="desktop"><a onclick="%s">chat message</a></span><span class="mobile"><a href="%s" rel="loadpage">chat message</a></span>';
 $LNG['new_birthday_notification'] = '<a href="%s" rel="loadpage">%s</a>\'s Geburtstag';
 $LNG['years_old'] = '%s Jahre alt';
-$LNG['x_and_x_others'] = '<a href="%s" rel="loadpage">%s</a> and <a href="%s" rel="loadpage">%s more</a>';
+$LNG['x_and_x_others'] = '<a href="%s" rel="loadpage">%s</a> und <a href="%s" rel="loadpage">%s mehr</a>';
 $LNG['new_like_fa'] = '<a href="%s" rel="loadpage">%s</a> liked a <a href="%s" rel="loadpage">message</a>';
 $LNG['new_like_c_fa'] = '<a href="%s" rel="loadpage">%s</a> liked a <a href="%s" rel="loadpage">comment</a>';
 $LNG['new_comment_fa'] = '<a href="%s" rel="loadpage">%s</a> commented on a <a href="%s" rel="loadpage">message</a>';
 $LNG['new_message_fa'] = '<a href="%s" rel="loadpage">%s</a> posted a new <a href="%s" rel="loadpage">message</a>';
 $LNG['change_password'] = 'Passwort ändern';
 $LNG['enter_new_password'] = 'Gib dein neues Passwort ein';
-$LNG['enter_reset_key'] = 'gib den reset-Key ein';
+$LNG['enter_reset_key'] = 'Gib den Reset-Key ein';
 $LNG['enter_username'] = 'Gib den Benutzernamen ein';
 $LNG['reset_key'] = 'Reset Key';
 $LNG['new_password'] = 'Neues Passwort';
